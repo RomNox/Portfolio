@@ -1,0 +1,181 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+}
+
+/* Фон страницы */
+body {
+    background: #dfe6e9; /* Светло-серый фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Основной контейнер (визитка) */
+.content-wrapper {
+    width: calc(100% - 120px); /* Отступы по 60px с каждой стороны */
+    height: calc(100% - 120px);
+
+    /* Бумажный фон + легкий градиент */
+    background: linear-gradient(135deg, #f8f8f8 0%, #eaeaea 100%);
+    background-image: url('https://www.transparenttextures.com/patterns/fabric-of-squares.png'); /* Текстура бумаги */
+    background-blend-mode: overlay;
+
+    position: relative;
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* Четкая тень для эффекта приподнятости */
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
+
+/* Главный экран */
+.hero {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+/* Изображение профиля */
+.profile-image {
+    width: 200px; /* Размер изображения */
+    height: auto;
+    margin-bottom: 15px; /* Отступ перед текстом */
+}
+
+/* Эффект напечатанного текста */
+.hero h1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1.5px; /* Легкое расхождение букв, как у печати */
+    opacity: 0.9; /* Чуть приглушенный, как у чернил */
+    text-shadow:
+            1px 1px 0 rgba(0, 0, 0, 0.15), /* Легкое затемнение */
+            -1px -1px 0 rgba(255, 255, 255, 0.4), /* Светлый отблеск */
+            0px 2px 3px rgba(0, 0, 0, 0.2); /* Смазанный эффект, как у отпечатка */
+}
+
+/* Подзаголовок */
+.hero p {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #333;
+    letter-spacing: 1px;
+    opacity: 0.85;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Навигация */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar nav ul li a:hover,
+.navbar nav ul li a.active {
+    color: red;
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/* Футер */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+/* Контактная информация */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.phone-icon {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+
+/* Соц-сети */
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+.social-icons img {
+    width: 60px;
+    height: 60px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.social-icons img:hover {
+    opacity: 1;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 3em;
+    }
+    .content-wrapper {
+        width: calc(100% - 40px);
+        height: calc(100% - 40px);
+        padding: 3vh;
+    }
+    .profile-image {
+        width: 120px;
+    }
+}

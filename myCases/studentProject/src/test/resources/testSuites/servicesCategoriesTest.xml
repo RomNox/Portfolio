@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite4" verbose="1">
+    <test name="`Suite4">
+        <classes>
+            <class name="com.petscare.tests.ServicesCategoriesTests"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,7 @@
+2025-02-12 23:41:58.089 [Test worker] INFO  com.petscare.tests.TestBase - Start test: isHomeComponentPresentTest
+2025-02-12 23:41:58.183 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //h1[contains(text(),'Welcome to Pet Service')]
+2025-02-12 23:41:58.184 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-12 23:41:58.217 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //h1[contains(text(),'Welcome to Pet Service')]
+2025-02-12 23:41:58.218 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-12 23:41:58.250 [Test worker] INFO  com.petscare.tests.TestBase - Test result: PASSED isHomeComponentPresentTest
+2025-02-12 23:41:58.250 [Test worker] INFO  com.petscare.tests.TestBase - ***************************************************************
