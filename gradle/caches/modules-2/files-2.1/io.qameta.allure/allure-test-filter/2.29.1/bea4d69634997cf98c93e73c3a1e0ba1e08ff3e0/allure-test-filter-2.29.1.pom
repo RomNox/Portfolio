@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.qameta.allure</groupId>
+  <artifactId>allure-test-filter</artifactId>
+  <version>2.29.1</version>
+  <name>allure-test-filter</name>
+  <description>Module allure-test-filter of Allure Framework.</description>
+  <url>https://allurereport.org/</url>
+  <organization>
+    <name>Qameta Software</name>
+    <url>https://qameta.io/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>baev</id>
+      <name>Dmitry Baev</name>
+      <email>dmitry.baev@qameta.io</email>
+      <url>https://github.com/baev</url>
+    </developer>
+    <developer>
+      <id>eroshenkoam</id>
+      <name>Artem Eroshenko</name>
+      <email>artem.eroshenko@qameta.io</email>
+      <url>https://github.com/eroshenkoam</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/allure-framework/allure-java</connection>
+    <developerConnection>scm:git:git://github.com/allure-framework/allure-java</developerConnection>
+    <url>https://github.com/allure-framework/allure-java</url>
+  </scm>
+  <issueManagement>
+    <system>Github Issues</system>
+    <url>https://github.com/allure-framework/allure-java/issues</url>
+  </issueManagement>
+  <ciManagement>
+    <system>Github Actions</system>
+    <url>https://github.com/allure-framework/allure-java/actions</url>
+  </ciManagement>
+  <dependencies>
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-java-commons</artifactId>
+      <version>2.29.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

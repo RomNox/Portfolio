@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-sdk-common",
+    "version": "1.46.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.46.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.46.0.jar",
+          "url": "opentelemetry-sdk-common-1.46.0.jar",
+          "size": 54520,
+          "sha512": "d8b329af6ce87b57aa32008a30548279d6ebd0289c6457825aba74eabdd0194444446ea973fc21fd50eeeb1531129ec085b90d8eee6f3668dbb6d7293acd59d0",
+          "sha256": "19a2a742947a2bc321c5df4dd9fe55617dea0e9d05ca2c3a3675ffa963043b78",
+          "sha1": "1d353ee4e980ff77c742350fc7000b732b6c6b3f",
+          "md5": "e5a225d176b97eaea8a441e33045beb9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.46.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.46.0.jar",
+          "url": "opentelemetry-sdk-common-1.46.0.jar",
+          "size": 54520,
+          "sha512": "d8b329af6ce87b57aa32008a30548279d6ebd0289c6457825aba74eabdd0194444446ea973fc21fd50eeeb1531129ec085b90d8eee6f3668dbb6d7293acd59d0",
+          "sha256": "19a2a742947a2bc321c5df4dd9fe55617dea0e9d05ca2c3a3675ffa963043b78",
+          "sha1": "1d353ee4e980ff77c742350fc7000b732b6c6b3f",
+          "md5": "e5a225d176b97eaea8a441e33045beb9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.46.0-javadoc.jar",
+          "url": "opentelemetry-sdk-common-1.46.0-javadoc.jar",
+          "size": 130541,
+          "sha512": "c3d7fc196a37ccfa6cefb323cdb3086c8231c3c6072d8c450ac43fb2dba96a539051fd4e0163c956760b7ff39d9c0fd09b5e352a586fb110d1cf535b27e19843",
+          "sha256": "79b589b233400e1001cb8e1f88e34565692db0c14e630e780e3493fb3150fcfd",
+          "sha1": "37165ec0f7179a7cfade35b5d77d211559d10538",
+          "md5": "27d7ebeb2d0ff702aeb49b4c308534f2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.46.0-sources.jar",
+          "url": "opentelemetry-sdk-common-1.46.0-sources.jar",
+          "size": 37625,
+          "sha512": "8fff5120ef0082b1ecd8c802643f2deb4e4a5cb76b110cfbe86eb1950f41162cfed5ecbf7d808da951194413c3dc119ddf0f5109bf32cd6bb6483635f860ab80",
+          "sha256": "69acd44c0dcbef971a75a7445510842622c7ba362f3b009e7f02b5ec1b4cb1e1",
+          "sha1": "6d114480a2e8137a54a01912b0d11d94c47aa3e6",
+          "md5": "8d37a661241b6d132a11f1feb30393fb"
+        }
+      ]
+    }
+  ]
+}

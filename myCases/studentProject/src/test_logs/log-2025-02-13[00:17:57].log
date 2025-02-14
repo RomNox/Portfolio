@@ -1,0 +1,150 @@
+2025-02-13 00:18:02.535 [Test worker] INFO  com.petscare.tests.TestBase - Start test: addNewUserServicePositiveTest
+2025-02-13 00:18:02.596 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:18:02.596 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:02.629 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:18:02.629 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:02.708 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:18:02.708 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:02.723 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:18:02.723 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:02.791 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:18:02.791 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:02.820 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:18:02.820 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:02.851 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:18:02.851 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:02.860 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:18:02.860 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:02.987 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:18:02.987 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:02.998 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:18:02.998 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.041 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:18:03.041 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.050 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:18:03.050 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.068 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:18:03.068 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.075 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:18:03.075 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.103 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.cssSelector: button[type='submit']
+2025-02-13 00:18:03.103 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.114 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.cssSelector: button[type='submit']
+2025-02-13 00:18:03.114 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.198 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //button[contains(text(),'My Services')]
+2025-02-13 00:18:03.198 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.408 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //button[contains(text(),'My Services')]
+2025-02-13 00:18:03.409 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.493 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //span[contains(text(),'Add a New Service')]
+2025-02-13 00:18:03.493 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.505 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //span[contains(text(),'Add a New Service')]
+2025-02-13 00:18:03.505 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.555 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //input[@placeholder='Dog sitter']
+2025-02-13 00:18:03.555 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.567 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //input[@placeholder='Dog sitter']
+2025-02-13 00:18:03.567 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.626 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //input[@placeholder='Dog sitter']
+2025-02-13 00:18:03.626 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.635 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //input[@placeholder='Dog sitter']
+2025-02-13 00:18:03.635 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.671 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //input[@placeholder='Dog sitter']
+2025-02-13 00:18:03.671 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.680 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //input[@placeholder='Dog sitter']
+2025-02-13 00:18:03.680 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.716 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //input[@placeholder='15']
+2025-02-13 00:18:03.717 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.729 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //input[@placeholder='15']
+2025-02-13 00:18:03.730 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.777 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //input[@placeholder='15']
+2025-02-13 00:18:03.777 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.786 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //input[@placeholder='15']
+2025-02-13 00:18:03.786 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.805 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //input[@placeholder='15']
+2025-02-13 00:18:03.805 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.813 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //input[@placeholder='15']
+2025-02-13 00:18:03.813 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.835 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: (//textarea)[1]
+2025-02-13 00:18:03.835 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.846 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: (//textarea)[1]
+2025-02-13 00:18:03.846 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.890 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: (//textarea)[1]
+2025-02-13 00:18:03.890 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.898 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: (//textarea)[1]
+2025-02-13 00:18:03.898 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.913 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: (//textarea)[1]
+2025-02-13 00:18:03.913 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.919 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: (//textarea)[1]
+2025-02-13 00:18:03.919 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.973 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //select[@name='type']
+2025-02-13 00:18:03.973 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.987 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //select[@name='type']
+2025-02-13 00:18:03.987 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:03.998 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //select[@name='type']
+2025-02-13 00:18:03.998 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:04.004 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //select[@name='type']
+2025-02-13 00:18:04.004 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:04.009 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //select[@name='type']
+2025-02-13 00:18:04.009 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:04.016 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //select[@name='type']
+2025-02-13 00:18:04.016 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:04.022 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //select[@name='type']
+2025-02-13 00:18:04.022 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:04.028 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //select[@name='type']
+2025-02-13 00:18:04.029 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:04.073 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //button[text()='Add Service']
+2025-02-13 00:18:04.073 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:04.083 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //button[text()='Add Service']
+2025-02-13 00:18:04.083 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:04.123 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //h3[contains(text(),'Cat sitter')]
+2025-02-13 00:18:04.123 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:04.189 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //h3[contains(text(),'Cat sitter')]
+2025-02-13 00:18:04.189 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:04.213 [Test worker] INFO  com.petscare.tests.TestBase - Test result: PASSED addNewUserServicePositiveTest
+2025-02-13 00:18:04.213 [Test worker] INFO  com.petscare.tests.TestBase - ***************************************************************
+2025-02-13 00:18:06.612 [Test worker] INFO  com.petscare.tests.TestBase - Start test: deleteServicePositiveTest
+2025-02-13 00:18:06.614 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:18:06.614 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:06.633 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:18:06.633 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:06.701 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:18:06.701 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:06.713 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:18:06.713 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:06.763 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:18:06.763 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:06.770 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:18:06.771 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:06.797 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:18:06.797 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:06.817 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:18:06.817 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:06.940 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:18:06.940 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:06.951 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:18:06.951 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:06.995 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:18:06.995 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:07.003 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:18:07.003 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:07.024 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:18:07.024 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:07.031 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:18:07.031 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:07.068 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.cssSelector: button[type='submit']
+2025-02-13 00:18:07.068 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:07.079 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.cssSelector: button[type='submit']
+2025-02-13 00:18:07.079 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:07.129 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //button[contains(text(),'My Services')]
+2025-02-13 00:18:07.129 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:07.379 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //button[contains(text(),'My Services')]
+2025-02-13 00:18:07.379 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:07.424 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //button[text()='Delete']
+2025-02-13 00:18:07.424 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:07.492 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //button[text()='Delete']
+2025-02-13 00:18:07.492 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:07.534 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //*[.='No services found.']
+2025-02-13 00:18:07.535 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:07.604 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //*[.='No services found.']
+2025-02-13 00:18:07.604 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:18:07.619 [Test worker] INFO  com.petscare.tests.TestBase - Test result: PASSED deleteServicePositiveTest
+2025-02-13 00:18:07.619 [Test worker] INFO  com.petscare.tests.TestBase - ***************************************************************

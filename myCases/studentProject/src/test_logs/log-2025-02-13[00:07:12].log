@@ -1,0 +1,316 @@
+2025-02-13 00:07:16.746 [Test worker] INFO  com.petscare.tests.TestBase - Start test: testEmptyFieldsValidationNegativeTest
+2025-02-13 00:07:16.810 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:16.811 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:16.844 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:16.844 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:16.976 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:16.976 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:16.988 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:16.988 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.076 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:17.076 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.086 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:17.086 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.117 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:17.118 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.126 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:17.126 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.175 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:17.175 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.207 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:17.208 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.256 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:17.256 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.273 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:17.273 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.309 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:17.309 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.318 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:17.318 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.336 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:17.336 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.346 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:17.346 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.401 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:17.401 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.415 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:17.415 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.457 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:17.458 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.465 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:17.466 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:17.493 [Test worker] INFO  com.petscare.tests.TestBase - Test result: PASSED testEmptyFieldsValidationNegativeTest
+2025-02-13 00:07:17.494 [Test worker] INFO  com.petscare.tests.TestBase - ***************************************************************
+2025-02-13 00:07:20.097 [Test worker] INFO  com.petscare.tests.TestBase - Start test: testEmptyFieldsValidationNegativeTest
+2025-02-13 00:07:20.100 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:20.100 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.120 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:20.120 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.188 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:20.188 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.202 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:20.202 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.268 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:20.268 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.277 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:20.277 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.332 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:20.332 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.340 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:20.340 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.492 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:20.492 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.503 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:20.503 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.560 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:20.561 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.572 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:20.572 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.593 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:20.594 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.601 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:20.601 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.620 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:20.620 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.631 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:20.631 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.687 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:20.688 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.696 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:20.696 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.739 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:20.739 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.747 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:20.747 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:20.758 [Test worker] INFO  com.petscare.tests.TestBase - Test result: PASSED testEmptyFieldsValidationNegativeTest
+2025-02-13 00:07:20.758 [Test worker] INFO  com.petscare.tests.TestBase - ***************************************************************
+2025-02-13 00:07:23.148 [Test worker] INFO  com.petscare.tests.TestBase - Start test: testEmptyFieldsValidationNegativeTest
+2025-02-13 00:07:23.151 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:23.151 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.171 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:23.171 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.243 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:23.243 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.256 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:23.256 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.314 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:23.314 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.325 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:23.325 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.364 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:23.364 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.373 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:23.374 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.408 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:23.408 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.418 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:23.419 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.481 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:23.481 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.489 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:23.490 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.510 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:23.510 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.517 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:23.517 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.663 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:23.663 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.676 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:23.676 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.721 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:23.722 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.730 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:23.730 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.775 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:23.775 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.782 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:23.782 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:23.792 [Test worker] INFO  com.petscare.tests.TestBase - Test result: PASSED testEmptyFieldsValidationNegativeTest
+2025-02-13 00:07:23.792 [Test worker] INFO  com.petscare.tests.TestBase - ***************************************************************
+2025-02-13 00:07:26.229 [Test worker] INFO  com.petscare.tests.TestBase - Start test: testLoginWithInvalidDataNegativeTest
+2025-02-13 00:07:26.231 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:26.231 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:26.254 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:26.254 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:26.322 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:26.322 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:26.342 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:26.342 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:26.398 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:26.398 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:26.404 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:26.404 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:26.442 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:26.442 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:26.450 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:26.450 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:26.591 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:26.591 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:26.601 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:26.602 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:26.651 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:26.651 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:26.659 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:26.659 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:26.679 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:26.679 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:26.685 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:26.685 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:26.721 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:26.721 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:26.731 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:26.732 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:28.800 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //div[contains(@class, 'text-red-500')]
+2025-02-13 00:07:28.801 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:28.811 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //div[contains(@class, 'text-red-500')]
+2025-02-13 00:07:28.811 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:28.827 [Test worker] INFO  com.petscare.tests.TestBase - Test result: PASSED testLoginWithInvalidDataNegativeTest
+2025-02-13 00:07:28.827 [Test worker] INFO  com.petscare.tests.TestBase - ***************************************************************
+2025-02-13 00:07:31.200 [Test worker] INFO  com.petscare.tests.TestBase - Start test: testLoginWithInvalidDataNegativeTest
+2025-02-13 00:07:31.202 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:31.203 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:31.219 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:31.219 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:31.291 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:31.291 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:31.307 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:31.307 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:31.365 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:31.365 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:31.374 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:31.374 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:31.419 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:31.419 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:31.428 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:31.429 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:31.552 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:31.552 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:31.562 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:31.562 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:31.608 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:31.609 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:31.620 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:31.620 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:31.639 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:31.639 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:31.646 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:31.646 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:31.751 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:31.751 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:31.774 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:31.774 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:33.879 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //div[contains(@class, 'text-red-500')]
+2025-02-13 00:07:33.879 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:33.891 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //div[contains(@class, 'text-red-500')]
+2025-02-13 00:07:33.892 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:33.906 [Test worker] INFO  com.petscare.tests.TestBase - Test result: PASSED testLoginWithInvalidDataNegativeTest
+2025-02-13 00:07:33.906 [Test worker] INFO  com.petscare.tests.TestBase - ***************************************************************
+2025-02-13 00:07:36.223 [Test worker] INFO  com.petscare.tests.TestBase - Start test: testLoginWithInvalidDataNegativeTest
+2025-02-13 00:07:36.227 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:36.227 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:36.243 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:36.244 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:36.313 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:36.313 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:36.327 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:36.327 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:36.381 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:36.381 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:36.389 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:36.389 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:36.419 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:36.420 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:36.447 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:36.447 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:36.559 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:36.559 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:36.569 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:36.569 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:36.609 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:36.609 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:36.620 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:36.621 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:36.640 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:36.640 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:36.647 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:36.647 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:36.685 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:36.685 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:36.696 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:36.696 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:38.744 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //div[contains(@class, 'text-red-500')]
+2025-02-13 00:07:38.745 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:38.756 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //div[contains(@class, 'text-red-500')]
+2025-02-13 00:07:38.756 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:38.768 [Test worker] INFO  com.petscare.tests.TestBase - Test result: PASSED testLoginWithInvalidDataNegativeTest
+2025-02-13 00:07:38.768 [Test worker] INFO  com.petscare.tests.TestBase - ***************************************************************
+2025-02-13 00:07:40.955 [Test worker] INFO  com.petscare.tests.TestBase - Start test: testLoginWithValidDataPositiveTest
+2025-02-13 00:07:40.957 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:40.957 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:40.975 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:40.975 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:41.044 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:41.044 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:41.057 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:41.057 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:41.120 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:41.121 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:41.132 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:41.132 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:41.200 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:41.200 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:41.206 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:41.206 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:41.321 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:41.321 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:41.331 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:41.331 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:41.372 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:41.372 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:41.379 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:41.379 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:41.400 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:41.400 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:41.406 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:41.406 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:41.429 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:41.429 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:41.442 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:41.442 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:42.005 [Test worker] INFO  com.petscare.tests.TestBase - Test result: PASSED testLoginWithValidDataPositiveTest
+2025-02-13 00:07:42.005 [Test worker] INFO  com.petscare.tests.TestBase - ***************************************************************
+2025-02-13 00:07:44.368 [Test worker] INFO  com.petscare.tests.TestBase - Start test: testLoginWithValidDataPositiveTest
+2025-02-13 00:07:44.369 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:44.369 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:44.385 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.xpath: //a[contains(text(),'Log in')]
+2025-02-13 00:07:44.385 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:44.474 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:44.474 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:44.491 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:44.491 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:44.544 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:44.544 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:44.551 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:44.551 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:44.591 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: email
+2025-02-13 00:07:44.591 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:44.601 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: email
+2025-02-13 00:07:44.601 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:44.725 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:44.725 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:44.735 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:44.736 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:44.779 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:44.779 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:44.788 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:44.788 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:44.807 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.id: password
+2025-02-13 00:07:44.807 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:44.814 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.id: password
+2025-02-13 00:07:44.815 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:44.861 [Test worker] INFO  com.petscare.listeners.TestListener - The locator will find --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:44.861 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:44.871 [Test worker] INFO  com.petscare.listeners.TestListener - The locator is --> By.cssSelector: button[type='submit']
+2025-02-13 00:07:44.871 [Test worker] INFO  com.petscare.listeners.TestListener - *********************************************
+2025-02-13 00:07:45.442 [Test worker] INFO  com.petscare.tests.TestBase - Test result: PASSED testLoginWithValidDataPositiveTest
+2025-02-13 00:07:45.442 [Test worker] INFO  com.petscare.tests.TestBase - ***************************************************************
