@@ -6,37 +6,36 @@
     <title>Мое Резюме</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-page="home">
 <!-- Основной контейнер -->
 <div class="content-wrapper">
-
     <!-- Навигация -->
     <header class="navbar">
         <div class="logo">BUSINESS CARD</div>
+        <button class="menu-btn">☰</button>
         <nav>
             <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><button class="menu-btn">☰</button></li>
+                <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-page="resume">Resume</a></li>
+                <li><a href="#" class="nav-link" data-page="portfolio">Portfolio</a></li>
+                <li><a href="#" class="nav-link" data-page="contacts">Contacts</a></li>
             </ul>
         </nav>
     </header>
-
     <!-- Главный контент -->
-    <main class="hero">
-        <img class="profile-image" src="imeg/Logo.webp" alt="Profile Image">
-        <h1>I'M QA Tester</h1>
-        <p>Vladimir Romaikin</p>
+    <main id="content">
+        <div class="hero">
+            <img class="profile-image" src="imeg/Logo.webp" alt="Profile Image">
+            <h1>I'M QA Tester</h1>
+            <p>Vladimir Romaikin</p>
+        </div>
     </main>
-
     <!-- Футер -->
     <footer>
         <div class="contact-info">
             <p>Tel(Ukr): +38 068 2620798</p>
             <p>Tel(Ger): +49 175 8810150</p>
-            <p>Email:  romaykin@gmail.com</p>
+            <p>Email: romaykin@gmail.com</p>
         </div>
         <p>© 2025 Romaikin V.</p>
         <div class="social-icons">
@@ -46,9 +45,7 @@
             <a href="#"><img src="imeg/Skype.webp" alt="Skype"></a>
         </div>
     </footer>
-
 </div>
-
 <script src="script.js"></script>
 </body>
 </html>
