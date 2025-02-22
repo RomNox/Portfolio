@@ -267,13 +267,15 @@ main {
 .resume-img {
     width: 120px;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .resume-btn {
     padding: 8px 16px;
+    margin-top: 10px;
     background-color: #333;
     color: #fff;
     border: none;
+    border-radius: 15px;
     cursor: pointer;
     transition: background 0.3s;
 }
