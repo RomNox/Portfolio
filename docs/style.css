@@ -1,18 +1,16 @@
-/* Общие стили */
+/* Сброс и базовые настройки */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', monospace;
+    font-family: "Courier New", monospace;
 }
-
-/* Убираем горизонтальный скролл */
 html, body {
     overflow-x: hidden;
     width: 100%;
 }
 
-/* Фон страницы */
+/* Фон и центрирование карточки */
 body {
     background: #dfe6e9;
     display: flex;
@@ -22,44 +20,71 @@ body {
     padding: 10px;
 }
 
-/* Основной контейнер */
+/* ============================= */
+/* Карточка – общий контейнер    */
+/* ============================= */
 .content-wrapper {
+    position: relative;
     width: calc(100% - 100px);
     height: calc(100% - 100px);
     background: linear-gradient(135deg, #f8f8f8 0%, #eaeaea 100%);
-    background-image: url('https://www.transparenttextures.com/patterns/fabric-of-squares.png');
+    background-image: url("https://www.transparenttextures.com/patterns/fabric-of-squares.png");
     background-blend-mode: overlay;
-    position: relative;
-    padding: 5vh;
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.4);
+
+    /* Структура: header, main и footer */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.4);
+    padding: 5vh;
+
+    /* 3D-анимация для переворота */
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
 }
 
-/* ГЛАВНАЯ СТРАНИЦА */
-.hero {
-    flex-grow: 1;
+/* При добавлении класса .flipped карточка переворачивается */
+.content-wrapper.flipped {
+    transform: rotateY(180deg);
+}
+
+/* ========================= */
+/* Header и Footer           */
+/* ========================= */
+.navbar {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
+    padding: 20px;
+    width: 100%;
 }
-.profile-image {
-    width: 200px;
-    height: auto;
-    margin-bottom: 15px;
-}
-.hero h1 {
-    font-size: 4em;
+.logo {
+    font-size: 1.5em;
     font-weight: bold;
-    color: black;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
 }
-
-/* ФУТЕР */
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+.navbar nav ul li {
+    margin: 0 10px;
+}
+.navbar nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.navbar nav ul li a.active {
+    color: red;
+}
+.menu-btn {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
 footer {
     display: flex;
     justify-content: space-between;
@@ -103,42 +128,39 @@ footer p {
     vertical-align: middle;
 }
 
-/* Навигация */
-.navbar {
+/* ====================== */
+/* Основной блок (main)  */
+/* ====================== */
+/* Main занимает оставшееся пространство */
+main {
+    flex: 1;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    width: 100%;
+    flex-direction: column;
+    justify-content: center; /* Центрируем по вертикали */
+    align-items: center;     /* Центрируем по горизонтали */
 }
-.logo {
-    font-size: 1.5em;
+/* Контент главной страницы */
+.hero {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.profile-image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.hero h1 {
+    font-size: 4em;
     font-weight: bold;
-}
-.navbar nav ul {
-    display: flex;
-    list-style: none;
-}
-.navbar nav ul li {
-    margin: 0 10px;
-}
-.navbar nav ul li a {
-    text-decoration: none;
     color: black;
-    font-size: 1em;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-.navbar nav ul li a.active {
-    color: red;
-}
-.menu-btn {
-    display: none;
-    font-size: 1.5em;
-    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
-/* Эффект анимации: субтильное затемнение с легким размытием */
+/* ====================== */
+/* Анимации затухания     */
+/* ====================== */
 .blur-fade-in {
     animation: blurFadeIn 1s forwards;
 }
@@ -154,7 +176,9 @@ footer p {
     to { filter: blur(3px); opacity: 0; }
 }
 
-/* Адаптивность */
+/* ====================== */
+/* Адаптивность          */
+/* ====================== */
 @media (max-width: 768px) {
     .menu-btn {
         display: block;
@@ -167,8 +191,8 @@ footer p {
         flex-direction: column;
     }
     footer p {
-        text-align: center;
         width: 100%;
+        text-align: center;
     }
     .social-icons a {
         width: 40px;
@@ -178,4 +202,119 @@ footer p {
         width: 30px;
         height: 30px;
     }
+}
+
+/* ============================= */
+/* Flip-контейнер для Resume (переворот main) */
+/* ============================= */
+.flip-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+}
+.flip-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+/* При добавлении класса flipped к flip-inner происходит переворот */
+.flip-inner.flipped {
+    transform: rotateY(180deg);
+}
+.face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.face.back {
+    transform: rotateY(180deg);
+    background: #ececec;
+}
+
+/* ============================= */
+/* Стили для содержимого Resume */
+/* (Краткое и детальное резюме) */
+/* ============================= */
+.resume-section {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.resume-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.resume-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 0 20px;
+}
+.resume-img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.resume-btn {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.resume-btn:hover {
+    background-color: #555;
+}
+.divider {
+    width: 1px;
+    height: 150px;
+    background-color: #000;
+    margin: 0 40px;
+}
+.resume-description {
+    margin-top: 30px;
+    max-width: 800px;
+    line-height: 1.5;
+    color: #333;
+    font-size: 1em;
+}
+
+/* Детальное резюме (на обратной стороне) */
+.resume-detail {
+    text-align: left;
+    padding: 20px;
+}
+.resume-detail h2 {
+    margin-bottom: 15px;
+}
+.resume-detail p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.back-btn {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.back-btn:hover {
+    background-color: #555;
 }
