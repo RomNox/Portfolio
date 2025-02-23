@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
+    // ---------------------------
     // Анимация слов на главной (hero)
+    // ---------------------------
     const textElement = document.querySelector(".hero h1");
     const words = ["QA Tester", "FS Developer"];
     let wordIndex = 0;
@@ -39,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const main = document.getElementById("content");
     const footer = document.querySelector("footer");
 
-    // Исходный контент (Home) и футер
+    // Сохраняем исходный контент (Home) и футер
     const originalMainHTML = main.innerHTML;
     const originalFooterHTML = footer.innerHTML;
 
@@ -47,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Объект pages
     // ---------------------------
     const pages = {
+        // Домашняя страница
         "home": {
             html: originalMainHTML,
             footer: originalFooterHTML,
@@ -54,6 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 bindNavLinks();
             }
         },
+        // Короткое резюме (QA / FS)
         "resume": {
             html: `
 <section class="resume-section">
@@ -78,6 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
             `,
             footer: originalFooterHTML,
             onLoad: function() {
+                // Кнопки "Подробнее"
                 const resumeBtns = document.querySelectorAll(".resume-btn");
                 resumeBtns.forEach(btn => {
                     btn.addEventListener("click", function() {
@@ -87,16 +92,27 @@ document.addEventListener("DOMContentLoaded", function () {
                 bindNavLinks();
             }
         },
+        // Детальное резюме QA
         "resumeQA": {
             html: `
 <div style="max-height:calc(100% - 40px); overflow-y:auto; padding:20px;">
   <img src="imeg/My_photo.webp" alt="Profile Photo"
        style="display:block; margin:0 auto 20px; width:180px; height:180px; border-radius:50%; object-fit:cover;">
   <h2 style="text-align:center;">QA MANUAL AND AUTOMATION TESTER</h2>
-  <p>QA Manual & Automation Tester with a background in IT development, project management...</p>
+  <br>
+  <p>I am interested in the opportunity to grow in the field of software quality assurance. With experience in manual and automated testing, 
+  as well as an understanding of fullstack development processes, 
+  I strive to apply my knowledge in a practical environment. 
+  I would be happy to discuss how my experience could benefit your team and look forward to the opportunity for a personal conversation.</p>
+  <br>
   <h3>SUMMARY</h3>
-  <p>QA Manual & Automation Tester with a background in IT development and project management. Led my own IT company, where I was involved in software development, testing, and implementation, gaining a deep understanding of the software development process. Completed 960 hours of theory and 160 hours of hands-on training at AIT TR GmbH (Berlin), mastering the full testing cycle – from manual to automated UI and API testing.</p>
+  <br>
+  <p>QA Manual & Automation Tester with a background in IT development and project management. Led my own IT company, where I was involved in software development,
+  testing, and implementation, gaining a deep understanding of the software development process. Completed 960 hours of theory and 160 hours of hands-on training at AIT TR GmbH (Berlin),
+  mastering the full testing cycle – from manual to automated UI and API testing.</p>
+  <br>
   <h3>MANUAL & AUTOMATION TESTING</h3>
+  <br>
   <p>Experienced in testing software at all levels, including functional, compatibility, performance, and security. Participated in the full testing cycle – from test case design to result analysis and process optimization.</p>
   <ul>
     <li><strong>Test documentation development:</strong> requirement analysis, test case creation, and bug reporting.</li>
@@ -109,7 +125,9 @@ document.addEventListener("DOMContentLoaded", function () {
     <li><strong>Security testing:</strong> detecting vulnerabilities, assessing API and UI protection.</li>
     <li><strong>End-to-End testing:</strong> comprehensive validation of system component interactions.</li>
   </ul>
+  <br>
   <h3>TOOLS & TECHNOLOGIEN</h3>
+  <br>
   <ul>
     <li><strong>Automation:</strong> Selenium WebDriver, TestNG, JUnit, Cucumber, Appium</li>
     <li><strong>API Testing:</strong> Postman, RestAssured, HttpClient, OkHttp, Fiddler</li>
@@ -120,7 +138,64 @@ document.addEventListener("DOMContentLoaded", function () {
     <li><strong>Test Management:</strong> Jira, TestLink</li>
     <li><strong>Security & Compliance:</strong> DSGVO, Privacy Policy</li>
   </ul>
+  <br>
   <h3>WORK EXPERIENCE</h3>
+  <br>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h4>QA Manual & Automation Tester<br>AIT TR GmbH, Germany<br>2024 – 2025</h4>
+        <p>Completed a full software testing training program, mastering UI and API test automation, 
+        test design, performance, and security testing.</p>
+      </div>
+    </div>
+    <div class="timeline-line"></div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h4>CEO<br>GmbH "ConTrust", Ukraine<br>2015 – 2024</h4>
+        <p>Led software development and implementation, established
+           testing processes, automated business workflows, and
+           ensured digital product quality.</p>
+      </div>
+    </div>
+    <div class="timeline-line"></div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h4>Head of Public Organization<br>International Red Cross, Illichivsk, Ukraine<br>2011 – 2015</h4>
+        <p>Coordinated projects, managed operations, and implemented reporting and quality control systems.</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <h3>EDUCATION</h3>
+  <br>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h4>QA Manual & Automation Tester<br>AIT TR GmbH, Germany<br>2024 – 2025</h4>
+        <p>960 hours of theoretical training + 160 hours of practice, covering manual and automated testing, 
+        test design, API and UI testing, performance, and security testing.</p>
+      </div>
+    </div>
+    <div class="timeline-line"></div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h4>Environmental Engineer<br>Odessa National Ecological University, Ukraine<br>2005 – 2010</h4>
+        <p>Developed analytical thinking, a systematic approach, and data processing skills, 
+        which later contributed to IT project management and software testing.</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <h3>LANGUAGES</h3>
+  <br>
+  <ul>
+    <li><strong>English</strong> - B2</li>
+    <li><strong>German</strong> - A2</li>
+    <li><strong>Ukrainian</strong> - Native</li>
+    <li><strong>Russian</strong> - Native</li>
+  <ul/>
+
   <button class="resume-back-btn" style="margin-top:15px;">Назад</button>
 </div>
             `,
@@ -133,6 +208,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 bindNavLinks();
             }
         },
+        // Детальное резюме FS (тоже обёрнут для скролла)
         "resumeFS": {
             html: `
 <div style="max-height:calc(100% - 40px); overflow-y:auto; padding:20px;">
@@ -236,7 +312,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // При обновлении контента нам нужно заново «навешивать» события
+    // При обновлении контента — заново «навешивать» события
     function bindNavLinks() {
         const newNavLinks = document.querySelectorAll(".nav-link");
         newNavLinks.forEach(link => {
