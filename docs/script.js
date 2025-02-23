@@ -99,17 +99,28 @@ document.addEventListener("DOMContentLoaded", function () {
   <h3>MANUAL & AUTOMATION TESTING</h3>
   <p>Experienced in testing software at all levels, including functional, compatibility, performance, and security. Participated in the full testing cycle – from test case design to result analysis and process optimization.</p>
   <ul>
-    <li>Test documentation development, requirement analysis, test case creation, and bug reporting.</li>
-    <li>Functional/UI testing, cross-browser checks</li>
-    <li>API testing: correctness & security</li>
-    <li>End-to-End coverage, performance, security</li>
+    <li><strong>Test documentation development:</strong> requirement analysis, test case creation, and bug reporting.</li>
+    <li><strong>Functional testing:</strong> verifying system compliance with requirements, analyzing user scenarios.</li>
+    <li><strong>UI testing:</strong> interface validation, regression, and cross-browser checks.</li>
+    <li><strong>API testing:</strong> ensuring request correctness, data transmission, and security.</li>
+    <li><strong>Compatibility testing:</strong> assessing performance across various devices, OS, and browsers.</li>
+    <li><strong>Boundary and validation tests:</strong> evaluating system behavior with valid and invalid inputs.</li>
+    <li><strong>Performance testing:</strong> analyzing system load capacity and identifying bottlenecks.</li>
+    <li><strong>Security testing:</strong> detecting vulnerabilities, assessing API and UI protection.</li>
+    <li><strong>End-to-End testing:</strong> comprehensive validation of system component interactions.</li>
   </ul>
   <h3>TOOLS & TECHNOLOGIEN</h3>
   <ul>
-    <li><strong>Automatisierung:</strong> Selenium, TestNG, JUnit, Appium</li>
-    <li><strong>API:</strong> Postman, RestAssured, Fiddler</li>
-    <li><strong>CI/CD:</strong> Git, Jenkins, Maven</li>
+    <li><strong>Automation:</strong> Selenium WebDriver, TestNG, JUnit, Cucumber, Appium</li>
+    <li><strong>API Testing:</strong> Postman, RestAssured, HttpClient, OkHttp, Fiddler</li>
+    <li><strong>Performance Testing:</strong> JMeter, Artillery</li>
+    <li><strong>CI/CD & Version Control:</strong> Git, GitHub, Jenkins, Maven, Gradle</li>
+    <li><strong>Programming:</strong> Java (Core & OOP), JavaScript</li>
+    <li><strong>Databases:</strong> SQL, NoSQL (MongoDB, PostgreSQL)</li>
+    <li><strong>Test Management:</strong> Jira, TestLink</li>
+    <li><strong>Security & Compliance:</strong> DSGVO, Privacy Policy</li>
   </ul>
+  <h3>WORK EXPERIENCE</h3>
   <button class="resume-back-btn" style="margin-top:15px;">Назад</button>
 </div>
             `,
