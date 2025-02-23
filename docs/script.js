@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Анимация текста в блоке hero (Home)
+    // Анимация слов на главной (hero)
     const textElement = document.querySelector(".hero h1");
-    const words = ["QA Tester", " FS Developer"];
+    const words = ["QA Tester", "FS Developer"];
     let wordIndex = 0;
     let charIndex = words[wordIndex].length;
     let isDeleting = true;
@@ -32,53 +32,128 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     setTimeout(typeEffect, 2500);
 
-    // Элементы DOM
+    // ---------------------------
+    // Селекторы DOM
+    // ---------------------------
     const navLinks = document.querySelectorAll(".nav-link");
-    const card = document.getElementById("card");       // Вся карточка
-    const main = document.getElementById("content");      // Центральный блок
-    const footer = document.querySelector("footer");      // Футер
+    const main = document.getElementById("content");
+    const footer = document.querySelector("footer");
 
-    // Исходный контент для Home
+    // Исходный контент (Home) и футер
     const originalMainHTML = main.innerHTML;
-    // Исходный футер (с иконками и контактами)
     const originalFooterHTML = footer.innerHTML;
 
-    // Навигация по вкладкам
-    navLinks.forEach(link => {
-        link.addEventListener("click", function (e) {
-            e.preventDefault();
-            navLinks.forEach(l => l.classList.remove("active"));
-            this.classList.add("active");
-            loadPage(this.dataset.page);
-        });
-    });
-
-    function loadPage(page) {
-        // Всегда анимируем main
-        main.classList.add("blur-fade-out");
-        // Анимировать футер только для "contacts"
-        if (page === "contacts") {
-            footer.classList.add("blur-fade-out");
-        }
-
-        setTimeout(() => {
-            card.classList.remove("flipped");
-            if (page === "resume") {
-                main.innerHTML = createFlipContainer();
-                // Для вкладки Resume используем полный футер
-                footer.innerHTML = originalFooterHTML;
-                bindResumeButtons();
+    // ---------------------------
+    // Объект pages
+    // ---------------------------
+    const pages = {
+        "home": {
+            html: originalMainHTML,
+            footer: originalFooterHTML,
+            onLoad: function() {
                 bindNavLinks();
-            } else if (page === "portfolio") {
-                main.innerHTML = `
+            }
+        },
+        "resume": {
+            html: `
+<section class="resume-section">
+  <h1>Мои профессии</h1>
+  <div class="resume-content" style="justify-content: space-around;">
+    <div class="resume-col">
+      <img class="resume-img" src="imeg/QA.webp" alt="QA Tester">
+      <h3>QA Tester</h3>
+      <button class="resume-btn" data-page="resumeQA">Подробнее</button>
+    </div>
+    <div class="resume-col">
+      <img class="resume-img" src="imeg/FS_Dev.webp" alt="FS Developer">
+      <h3>FS Developer</h3>
+      <button class="resume-btn" data-page="resumeFS">Подробнее</button>
+    </div>
+  </div>
+  <p class="resume-description">
+    Здесь приведено краткое резюме, подчёркивающее мой опыт в тестировании и разработке.
+    Нажмите "Подробнее", чтобы увидеть полную версию.
+  </p>
+</section>
+            `,
+            footer: originalFooterHTML,
+            onLoad: function() {
+                const resumeBtns = document.querySelectorAll(".resume-btn");
+                resumeBtns.forEach(btn => {
+                    btn.addEventListener("click", function() {
+                        loadPage(this.dataset.page);
+                    });
+                });
+                bindNavLinks();
+            }
+        },
+        "resumeQA": {
+            html: `
+<div style="max-height:calc(100% - 40px); overflow-y:auto; padding:20px;">
+  <img src="imeg/My_photo.webp" alt="Profile Photo"
+       style="display:block; margin:0 auto 20px; width:180px; height:180px; border-radius:50%; object-fit:cover;">
+  <h2 style="text-align:center;">QA MANUAL AND AUTOMATION TESTER</h2>
+  <p>QA Manual & Automation Tester with a background in IT development, project management...</p>
+  <h3>SUMMARY</h3>
+  <p>QA Manual & Automation Tester with a background in IT development and project management. Led my own IT company, where I was involved in software development, testing, and implementation, gaining a deep understanding of the software development process. Completed 960 hours of theory and 160 hours of hands-on training at AIT TR GmbH (Berlin), mastering the full testing cycle – from manual to automated UI and API testing.</p>
+  <h3>MANUAL & AUTOMATION TESTING</h3>
+  <p>Experienced in testing software at all levels, including functional, compatibility, performance, and security. Participated in the full testing cycle – from test case design to result analysis and process optimization.</p>
+  <ul>
+    <li>Test documentation development, requirement analysis, test case creation, and bug reporting.</li>
+    <li>Functional/UI testing, cross-browser checks</li>
+    <li>API testing: correctness & security</li>
+    <li>End-to-End coverage, performance, security</li>
+  </ul>
+  <h3>TOOLS & TECHNOLOGIEN</h3>
+  <ul>
+    <li><strong>Automatisierung:</strong> Selenium, TestNG, JUnit, Appium</li>
+    <li><strong>API:</strong> Postman, RestAssured, Fiddler</li>
+    <li><strong>CI/CD:</strong> Git, Jenkins, Maven</li>
+  </ul>
+  <button class="resume-back-btn" style="margin-top:15px;">Назад</button>
+</div>
+            `,
+            footer: originalFooterHTML,
+            onLoad: function() {
+                const backBtn = document.querySelector(".resume-back-btn");
+                backBtn.addEventListener("click", function() {
+                    loadPage("resume");
+                });
+                bindNavLinks();
+            }
+        },
+        "resumeFS": {
+            html: `
+<div style="max-height:calc(100% - 40px); overflow-y:auto; padding:20px;">
+  <img src="imeg/Logo.webp" alt="Profile Photo"
+       style="display:block; margin:0 auto 20px; width:150px; height:150px; border-radius:50%; object-fit:cover;">
+  <h2 style="text-align:center;">Fullstack Developer</h2>
+  <p>Опыт full-stack разработки (frontend/backend, CI/CD, Docker, Kubernetes...).</p>
+  <button class="resume-back-btn" style="margin-top:15px;">Назад</button>
+</div>
+            `,
+            footer: originalFooterHTML,
+            onLoad: function() {
+                const backBtn = document.querySelector(".resume-back-btn");
+                backBtn.addEventListener("click", function() {
+                    loadPage("resume");
+                });
+                bindNavLinks();
+            }
+        },
+        "portfolio": {
+            html: `
 <section>
   <h2>Портфолио</h2>
   <p>Проекты, над которыми я работал.</p>
-</section>`;
-                footer.innerHTML = originalFooterHTML;
+</section>`,
+            footer: originalFooterHTML,
+            onLoad: function() {
                 bindNavLinks();
-            } else if (page === "contacts") {
-                main.innerHTML = `
+            }
+        },
+        "contacts": {
+            html: `
 <section class="contacts-section">
   <div class="contacts-content" style="text-align: center;">
     <h2>Свяжитесь со мной</h2>
@@ -98,14 +173,33 @@ document.addEventListener("DOMContentLoaded", function () {
     <a href="#"><img src="imeg/Whatsapp.webp" alt="Whatsapp"></a>
     <a href="#"><img src="imeg/Skype.webp" alt="Skype"></a>
   </div>
-</section>`;
-                // Заменяем футер на сокращённый вариант
-                footer.innerHTML = `<p>© 2025 Romaikin V.</p>`;
+</section>`,
+            footer: `<p>© 2025 Romaikin V.</p>`,
+            onLoad: function() {
                 bindNavLinks();
+            }
+        }
+    };
+
+    // Функция loadPage для переключения вкладок
+    function loadPage(page) {
+        main.classList.add("blur-fade-out");
+        if (page === "contacts") {
+            footer.classList.add("blur-fade-out");
+        }
+
+        setTimeout(() => {
+            if (pages[page]) {
+                main.innerHTML = pages[page].html;
+                footer.innerHTML = pages[page].footer || originalFooterHTML;
             } else {
+                // Нет такой вкладки => home
                 main.innerHTML = originalMainHTML;
                 footer.innerHTML = originalFooterHTML;
-                bindNavLinks();
+            }
+
+            if (pages[page] && typeof pages[page].onLoad === "function") {
+                pages[page].onLoad();
             }
 
             main.classList.remove("blur-fade-out");
@@ -114,129 +208,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 footer.classList.remove("blur-fade-out");
                 footer.classList.add("blur-fade-in");
             }
-
             setTimeout(() => {
                 main.classList.remove("blur-fade-in");
                 footer.classList.remove("blur-fade-in");
             }, 800);
-
         }, 800);
     }
 
-    // Создание flip-контейнера для раздела Resume
-    function createFlipContainer() {
-        const frontHTML = `
-<div class="face front">
-  <section class="resume-section">
-    <h2>Краткое резюме</h2>
-    <div class="resume-content">
-      <div class="resume-col">
-        <img class="resume-img" src="imeg/QA.webp" alt="QA Tester">
-        <h3>QA Tester</h3>
-        <button class="resume-btn" data-resume="qa">Подробнее</button>
-      </div>
-      <div class="divider"></div>
-      <div class="resume-col">
-        <img class="resume-img" src="imeg/FS_Dev.webp" alt="FS Developer">
-        <h3>FS Developer</h3>
-        <button class="resume-btn" data-resume="fs">Подробнее</button>
-      </div>
-    </div>
-    <p class="resume-description">
-      Здесь приведено краткое резюме, подчёркивающее мой опыт в тестировании и разработке.
-      Выберите специализацию для получения подробной информации.
-    </p>
-  </section>
-</div>`;
-
-        const backHTML = `
-<div class="face back">
-  <section class="resume-detail-placeholder">
-    <h2>Детальное резюме</h2>
-    <p>Нажмите "Подробнее" для получения информации.</p>
-  </section>
-</div>`;
-
-        return `
-<div class="flip-container">
-  <div class="flip-inner">
-    ${frontHTML}
-    ${backHTML}
-  </div>
-</div>`;
-    }
-
-    // Привязка кнопок "Подробнее" на кратком резюме
-    function bindResumeButtons() {
-        const resumeButtons = document.querySelectorAll(".resume-btn");
-        resumeButtons.forEach(btn => {
-            btn.addEventListener("click", function () {
-                const type = this.dataset.resume; // "qa" или "fs"
-                showDetailedResume(type);
-            });
+    // Привязка ссылок меню (Home / Resume / etc.)
+    navLinks.forEach(link => {
+        link.addEventListener("click", function(e) {
+            e.preventDefault();
+            navLinks.forEach(l => l.classList.remove("active"));
+            this.classList.add("active");
+            loadPage(this.dataset.page);
         });
-    }
+    });
 
-    // Функция показа детального резюме с переворотом карточки
-    function showDetailedResume(type) {
-        // Сначала fade-out main
-        main.classList.add("blur-fade-out");
-        setTimeout(() => {
-            let detailHTML = "";
-            if (type === "qa") {
-                detailHTML = `
-<section class="resume-detail">
-  <img class="profile-image" src="imeg/Logo.webp" alt="Profile Image" style="width:150px; margin-bottom:20px;">
-  <h2>Детальное резюме: QA Tester</h2>
-  <p>Мой опыт в тестировании ПО включает использование современных методик автоматизации и ручного тестирования, выявление критических ошибок и обеспечение высокого качества продукта.</p>
-  <p>Я работаю с баг-трекинговыми системами, пишу авто-тесты и подробную тестовую документацию.</p>
-  <button class="back-btn">Назад</button>
-</section>`;
-            } else {
-                detailHTML = `
-<section class="resume-detail">
-  <img class="profile-image" src="imeg/Logo.webp" alt="Profile Image" style="width:150px; margin-bottom:20px;">
-  <h2>Детальное резюме: FS Developer</h2>
-  <p>Благодаря глубоким знаниям full‑stack разработки, я создаю надёжные веб-приложения, интегрирую современные технологии и оптимизирую процессы разработки для комплексных решений.</p>
-  <p>Мой опыт охватывает серверную и клиентскую части, а также работу с CI/CD для быстрой и качественной поставки продукта.</p>
-  <button class="back-btn">Назад</button>
-</section>`;
-            }
-
-            const backFace = document.querySelector(".flip-container .face.back");
-            if (backFace) {
-                backFace.innerHTML = detailHTML;
-            }
-
-            // Переворачиваем всю карточку (header, main, footer)
-            card.classList.add("flipped");
-
-            main.classList.remove("blur-fade-out");
-            main.classList.add("blur-fade-in");
-            setTimeout(() => {
-                main.classList.remove("blur-fade-in");
-            }, 800);
-
-            // Кнопка "Назад"
-            const backBtn = document.querySelector(".back-btn");
-            if (backBtn) {
-                backBtn.addEventListener("click", function () {
-                    main.classList.add("blur-fade-out");
-                    setTimeout(() => {
-                        card.classList.remove("flipped");
-                        loadPage("resume");
-                        main.classList.remove("blur-fade-out");
-                        main.classList.add("blur-fade-in");
-                        setTimeout(() => {
-                            main.classList.remove("blur-fade-in");
-                        }, 800);
-                    }, 800);
-                });
-            }
-        }, 800);
-    }
-
-    // Привязка навигационных ссылок внутри динамического контента
+    // При обновлении контента нам нужно заново «навешивать» события
     function bindNavLinks() {
         const newNavLinks = document.querySelectorAll(".nav-link");
         newNavLinks.forEach(link => {
@@ -247,6 +236,5 @@ document.addEventListener("DOMContentLoaded", function () {
                 loadPage(this.dataset.page);
             });
         });
-        bindResumeButtons();
     }
 });

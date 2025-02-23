@@ -38,10 +38,13 @@ body {
     justify-content: space-between;
     padding: 5vh;
 
-    /* 3D-анимация для переворота */
+    /* 3D-анимация для переворота (если где-то код flip остался) */
     transition: transform 0.8s;
     transform-style: preserve-3d;
     perspective: 1000px;
+
+    /* Скрываем общий scroll body, прокрутка будет внутри main */
+    overflow: hidden;
 }
 
 /* При добавлении класса .flipped карточка переворачивается */
@@ -136,9 +139,15 @@ main {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Центрируем по вертикали */
-    align-items: center;     /* Центрируем по горизонтали */
+
+    /* Центрируем контент по вертикали и горизонтали */
+    justify-content: center;
+    align-items: center;
+
+    /* Если контент превышает размер карточки, будет скролл именно в main */
+    overflow-y: auto;
 }
+
 /* Контент главной страницы */
 .hero {
     text-align: center;
@@ -205,7 +214,7 @@ main {
 }
 
 /* ============================= */
-/* Flip-контейнер для Resume (переворот main) */
+/* Flip-контейнер (если всё ещё нужен) */
 /* ============================= */
 .flip-container {
     position: relative;
@@ -220,16 +229,13 @@ main {
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
-/* При добавлении класса flipped к flip-inner происходит переворот */
 .flip-inner.flipped {
     transform: rotateY(180deg);
 }
 .face {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
     backface-visibility: hidden;
     display: flex;
     flex-direction: column;
@@ -244,7 +250,6 @@ main {
 
 /* ============================= */
 /* Стили для содержимого Resume */
-/* (Краткое и детальное резюме) */
 /* ============================= */
 .resume-section {
     text-align: center;
@@ -296,7 +301,9 @@ main {
     font-size: 1em;
 }
 
-/* Детальное резюме (на обратной стороне) */
+/* ============================= */
+/* Детальное резюме прокрутка    */
+/* ============================= */
 .resume-detail {
     text-align: left;
     padding: 20px;
@@ -319,4 +326,11 @@ main {
 }
 .back-btn:hover {
     background-color: #555;
+}
+
+/* Если нужно, чтобы конкретный контейнер прокручивался */
+.resume-detail-container {
+    max-height: 60vh; /* или 50vh, как вам удобно */
+    overflow-y: auto;
+    padding-right: 10px; /* отступ для скроллбара */
 }
