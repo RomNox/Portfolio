@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <p>
       Experienced in testing software at all levels, including functional, compatibility, performance, and security.
       Participated in the full testing cycle – from test case design to result analysis and process optimization.
-    </p>
+    </p><br>
 
     <!-- Список прижат к левому краю -->
     <ul style="text-align:left; max-width:700px; margin:0 auto;">
@@ -219,14 +219,34 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     </div>
 
-    <br><h3>LANGUAGES</h3><br>
+    <h3>LANGUAGES</h3><br>
     <!-- Убираем точки -->
     <ul style="list-style:none; padding:0; margin:0;">
       <li><strong>English</strong> - B2</li>
       <li><strong>German</strong> - A2</li>
       <li><strong>Ukrainian</strong> - Native</li>
       <li><strong>Russian</strong> - Native</li>
-    </ul>
+    </ul><br>
+    
+    <br><h3>VOLUNTEERING</h3>
+    <p>Red Cross 2011-2015</p><br>
+    <p><strong>Led the Blood Donation Program in Ukrain (Chornomorsk)</strong>, focusing on donor recruitment and steady blood supplies. Organized 50+ events, ensuring logistics, safe transport, 
+    and collaboration with medical facilities, 
+    local authorities, and volunteers. Achieved a 40% donor increase through awareness campaigns and media support. Implemented a data management system for donor registration, 
+    history tracking, and event planning, and worked with youth organizations to attract new participants. 
+    This experience sharpened my strategic planning, 
+    volunteer coordination, and data management skills—later proving valuable in my QA and project management career.
+    </p><br>
+    <p><strong>Youth Program Leader</strong> Organized a youth program introducing participants to medical careers through educational events with practicing doctors, 
+    hands-on training in emergency services and hospitals, 
+    and visits to medical institutions. Involved over 300 students, conducted 20+ practical sessions, arranged tours of medical museums, and collaborated with medical professionals for workshops. 
+    Guided 50+ graduates in choosing medical colleges and universities. 
+    This experience strengthened my skills in project management, youth engagement, strategic planning, and event organization, later proving valuable in my IT, QA, and project management career.
+    </p><br>
+    <p><strong>Commander of Emergency Response Teams</strong> Led and coordinated Red Cross Emergency Response Teams in Chornomorsk and Odesa, ensuring rapid crisis response, volunteer management, 
+    and first aid provision. Established and trained 3 teams (50+ volunteers), organized 100+ drills for disaster and emergency scenarios, and developed an alert system for efficient resource allocation. 
+    Managed evacuations, first aid, and victim support during real crises while collaborating with authorities and rescue services. This experience strengthened my skills in crisis management, 
+    strategic planning, team leadership, and coordination, proving valuable in my IT, QA, and project management career.</p>
 
     <button class="resume-back-btn" style="margin-top:15px;">Назад</button>
   </div> <!-- .resume-detail-centered -->
