@@ -455,7 +455,7 @@ document.addEventListener("DOMContentLoaded", function () {
             html: `
 <section class="contacts-section">
   <div class="contacts-content" style="text-align: center;">
-    <h2>Свяжитесь со мной</h2>
+    <h2>Contact me:</h2>
     <div class="contact-block" style="margin: 20px 0;">
       <img src="imeg/Phone.webp" alt="Phone" class="contact-icon">
       <p>+38 068 262 07 98</p>
