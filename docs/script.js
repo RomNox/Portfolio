@@ -32,16 +32,17 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         setTimeout(typeEffect, isDeleting ? speed - 150 : speed);
     }
+    // Запускаем анимацию слов
     setTimeout(typeEffect, 2500);
 
     // ---------------------------
-    // Селекторы DOM
+    // Основные селекторы
     // ---------------------------
     const navLinks = document.querySelectorAll(".nav-link");
     const main = document.getElementById("content");
     const footer = document.querySelector("footer");
 
-    // Исходный контент (Home) и футер
+    // Сохраняем исходное содержимое (Home) и футер
     const originalMainHTML = main.innerHTML;
     const originalFooterHTML = footer.innerHTML;
 
@@ -58,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         },
 
-        // Вкладка Resume – краткое резюме (QA / FS)
+        // Короткое резюме (QA/FS)
         "resume": {
             html: `
 <section class="resume-section">
@@ -93,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         },
 
-        // Детальное резюме QA (полностью по центру)
+        // Детальное резюме QA
         "resumeQA": {
             html: `
 <div style="max-height:calc(100% - 40px); overflow-y:auto; padding:20px;">
@@ -137,7 +138,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Participated in the full testing cycle – from test case design to result analysis and process optimization.
     </p>
 
-    <ul>
+    <!-- Список прижат к левому краю -->
+    <ul style="text-align:left; max-width:700px; margin:0 auto;">
       <li><strong>Test documentation development:</strong> requirement analysis, test case creation, and bug reporting.</li>
       <li><strong>Functional testing:</strong> verifying system compliance with requirements, analyzing user scenarios.</li>
       <li><strong>UI testing:</strong> interface validation, regression, and cross-browser checks.</li>
@@ -150,7 +152,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </ul>
 
     <br><h3>TOOLS & TECHNOLOGIEN</h3><br>
-    <ul>
+    <!-- Список прижат к левому краю -->
+    <ul style="text-align:left; max-width:700px; margin:0 auto;">
       <li><strong>Automation:</strong> Selenium WebDriver, TestNG, JUnit, Cucumber, Appium</li>
       <li><strong>API Testing:</strong> Postman, RestAssured, HttpClient, OkHttp, Fiddler</li>
       <li><strong>Performance Testing:</strong> JMeter, Artillery</li>
@@ -217,7 +220,8 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
 
     <br><h3>LANGUAGES</h3><br>
-    <ul>
+    <!-- Убираем точки -->
+    <ul style="list-style:none; padding:0; margin:0;">
       <li><strong>English</strong> - B2</li>
       <li><strong>German</strong> - A2</li>
       <li><strong>Ukrainian</strong> - Native</li>
@@ -304,7 +308,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     // ---------------------------
-    // Функция loadPage (переключение вкладок)
+    // Функция loadPage
     // ---------------------------
     function loadPage(page) {
         main.classList.add("blur-fade-out");
@@ -317,12 +321,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 main.innerHTML = pages[page].html;
                 footer.innerHTML = pages[page].footer || originalFooterHTML;
             } else {
-                // Если вкладки нет => Home
+                // Если вкладки нет => home
                 main.innerHTML = originalMainHTML;
                 footer.innerHTML = originalFooterHTML;
             }
 
-            // Если у страницы есть onLoad
             if (pages[page] && typeof pages[page].onLoad === "function") {
                 pages[page].onLoad();
             }
