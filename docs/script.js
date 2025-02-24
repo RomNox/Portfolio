@@ -272,14 +272,159 @@ document.addEventListener("DOMContentLoaded", function () {
         },
 
         // Детальное резюме FS
+        // -- Полная копия QA, только заголовок (h2) сменим на "Fullstack Developer", остальное такое же:
         "resumeFS": {
             html: `
 <div style="max-height:calc(100% - 40px); overflow-y:auto; padding:20px;">
-  <img src="imeg/Logo.webp" alt="Profile Photo"
-       style="display:block; margin:0 auto 20px; width:150px; height:150px; border-radius:50%; object-fit:cover;">
-  <h2 style="text-align:center;">Fullstack Developer</h2>
-  <p>Опыт full-stack разработки (frontend/backend, CI/CD, Docker, Kubernetes...).</p>
-  <button class="resume-btn resume-back-btn">Назад</button>
+  <div class="resume-detail-centered">
+
+    <!-- КРУГЛАЯ ФОТО -->
+    <img src="imeg/My_photo.webp"
+         alt="Profile Photo"
+         style="
+           display:block;
+           margin:0 auto 20px;
+           width:180px;
+           height:180px;
+           border-radius:50%;
+           object-fit:cover;
+         ">
+    <br>
+    <h2>Fullstack Developer</h2>
+    <br>
+
+    <p>
+      I am interested in the opportunity to grow in the field of fullstack development. With experience in building web applications, backend development, 
+      and database management, I strive to apply my knowledge in a practical environment. I would be happy to discuss how my skills and experience could 
+      contribute to your team and look forward to the opportunity for a personal conversation.
+    </p>
+
+    <br><h3>SUMMARY</h3><br>
+    <p>
+      Fullstack Developer with experience in building web applications, working with databases, and backend infrastructure. 
+      Proficient in the full development cycle—from designing architecture to deployment and optimization. 
+      Over 8 years in IT, including project management, business process automation, and software quality assurance.
+      <br>
+      Completed an intensive Fullstack Development training program at AIT TR GmbH (960 hours of theory + 160 hours of practice), 
+      gaining hands-on experience in Java, Spring Boot, JavaScript (ES6+), React, HTML/CSS, SQL and NoSQL databases, and DevOps methodologies.
+    </p>
+
+    <br><h3>TECHNICAL SKILLS</h3><br>
+    <!-- Список прижат к левому краю -->
+    <ul style="text-align:left; max-width:700px; margin:0 auto;">
+      <li><strong>Backend Development:</strong> Java (Core, OOP, Collections, Multithreading) / Spring Boot, Hibernate, JPA / REST API, GraphQL, WebSockets</li>
+      <li><strong>Frontend Development:</strong> HTML5, CSS3 (Flexbox, Grid) / JavaScript (ES6+), TypeScript / React, Redux, Zustand</li>
+      <li><strong>Databases & Cloud:</strong> SQL (PostgreSQL, MySQL), NoSQL (MongoDB) / Linux, Docker, DigitalOcean / Firebase, AWS S3</li>
+      <li><strong>DevOps & CI/CD:</strong> Git, GitHub, GitLab CI/CD / Jenkins, Docker, Kubernetes / Nginx, Apache</li>
+      <li><strong>Testing & QA:</strong> Unit & Integration Testing (JUnit, Mockito) / API Testing (Postman, RestAssured) / UI Testing (Selenium, Cypress)</li>
+    </ul>
+
+    <br><h3>TOOLS & TECHNOLOGIEN</h3><br>
+    <!-- Список прижат к левому краю -->
+    <ul style="text-align:left; max-width:700px; margin:0 auto;">
+      <li><strong>Programming Languages:</strong> Java, JavaScript, TypeScript</li>
+      <li><strong>Frameworks & Libraries:</strong> Spring Boot, Hibernate, React, Redux</li>
+      <li><strong>Databases:</strong> PostgreSQL, MySQL, MongoDB</li>
+      <li><strong>Cloud & Deployment:</strong> Digital Ocean, Docker, Kubernetes</li>
+      <li><strong>Version Control & CI/CD:</strong> Git, GitHub, GitLab CI/CD, Jenkins</li>
+      <li><strong>Testing & Quality Assurance:</strong> Selenium, Postman, JUnit, Mockito</li>
+      <li><strong>Project Management & Compliance:</strong> Agile (Scrum, Kanban), Privacy Policy</li>
+    </ul>
+
+    <br><br><h3>WORK EXPERIENCE</h3>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h4>Fullstack Developer<br>AIT TR GmbH, Germany<br>2024 – 2025</h4>
+          <p>
+            Completed a comprehensive fullstack development training program, mastering Java, Spring Boot, JavaScript, React, 
+            SQL/NoSQL databases, and DevOps practices, including CI/CD and cloud deployment.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-line"></div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h4>CEO<br>GmbH "ConTrust", Ukraine<br>2015 – 2024</h4>
+          <p>
+            Designed and implemented digital business solutions, focusing on CRM and ERP systems.
+            Managed end-to-end software development projects, ensuring quality and efficiency from concept to deployment.
+            Established DevOps workflows, automated IT operations, and optimized business processes.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-line"></div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h4>Head of Public Organization<br>International Red Cross, Illichivsk, Ukraine<br>2011 – 2015</h4>
+          <p>
+            Coordinated humanitarian initiatives, including emergency response and resource allocation.
+            Implemented digital tools to optimize operational workflows, reporting, and data management.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br><h3>EDUCATION</h3>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h4>Fullstack Developer<br>AIT TR GmbH, Germany<br>2024 – 2025</h4>
+          <p>
+            Completed a fullstack development program covering Java Core, Spring Boot, JavaScript, React, Redux, SQL/NoSQL databases, CI/CD, DevOps, and cloud deployment.
+            Developed real-world applications in an Agile environment using Scrum and Kanban methodologies.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-line"></div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h4>Environmental Engineer<br>Odessa National Ecological University, Ukraine<br>2005 – 2010</h4>
+          <p>
+            Acquired strong analytical, data processing, and systematic problem-solving skills, which contributed to my ability to develop and optimize IT solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <br><h3>CERTIFICATES</h3>
+      <div class="certificates">
+    <img src="imeg/ZertifikatFS.webp" alt="QA Certificate" class="certificate-img">
+    <img src="imeg/ZertifikatFS2.webp" alt="QA Certificate 2" class="certificate-img">
+      </div>
+    <br>
+
+    <h3>LANGUAGES</h3><br>
+    <!-- Убираем точки -->
+    <ul style="list-style:none; padding:0; margin:0;">
+      <li><strong>English</strong> - B2</li>
+      <li><strong>German</strong> - A2</li>
+      <li><strong>Ukrainian</strong> - Native</li>
+      <li><strong>Russian</strong> - Native</li>
+    </ul><br>
+    
+    <h3>VOLUNTEERING</h3>
+    <p>Red Cross 2011-2015</p><br>
+    <p><strong>Led the Blood Donation Program in Ukrain </strong><br>Focusing on donor recruitment and steady blood supplies. Organized 50+ events, ensuring logistics, safe transport, 
+    and collaboration with medical facilities, 
+    local authorities, and volunteers. Achieved a 40% donor increase through awareness campaigns and media support. Implemented a data management system for donor registration, 
+    history tracking, and event planning, and worked with youth organizations to attract new participants. 
+    This experience sharpened my strategic planning, 
+    volunteer coordination, and data management skills—later proving valuable in my QA and project management career.
+    </p><br>
+    <p><strong>Youth Program Leader</strong><br>Organized a youth program introducing participants to medical careers through educational events with practicing doctors, 
+    hands-on training in emergency services and hospitals, 
+    and visits to medical institutions. Involved over 300 students, conducted 20+ practical sessions, arranged tours of medical museums, and collaborated with medical professionals for workshops. 
+    Guided 50+ graduates in choosing medical colleges and universities. 
+    This experience strengthened my skills in project management, youth engagement, strategic planning, and event organization, later proving valuable in my IT, QA, and project management career.
+    </p><br>
+    <p><strong>Commander of Emergency Response Teams</strong><br>Led and coordinated Red Cross Emergency Response Teams in Chornomorsk and Odesa, ensuring rapid crisis response, volunteer management, 
+    and first aid provision. Established and trained 3 teams (50+ volunteers), organized 100+ drills for disaster and emergency scenarios, and developed an alert system for efficient resource allocation. 
+    Managed evacuations, first aid, and victim support during real crises while collaborating with authorities and rescue services. This experience strengthened my skills in crisis management, 
+    strategic planning, team leadership, and coordination, proving valuable in my IT, QA, and project management career.</p>
+
+    <br><button class="resume-btn resume-back-btn">Back</button>
+  </div> <!-- .resume-detail-centered -->
 </div>
             `,
             footer: originalFooterHTML,
