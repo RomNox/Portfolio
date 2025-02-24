@@ -1,16 +1,21 @@
+/* ============================= */
 /* Сброс и базовые настройки */
+/* ============================= */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Courier New", monospace;
 }
+
 html, body {
     overflow-x: hidden;
     width: 100%;
 }
 
+/* ============================= */
 /* Фон и центрирование карточки */
+/* ============================= */
 body {
     background: #dfe6e9;
     display: flex;
@@ -21,7 +26,7 @@ body {
 }
 
 /* ============================= */
-/* Карточка – общий контейнер    */
+/* Карточка – общий контейнер */
 /* ============================= */
 .content-wrapper {
     position: relative;
@@ -45,12 +50,8 @@ body {
     overflow: hidden;
 }
 
-.content-wrapper.flipped {
-    transform: rotateY(180deg);
-}
-
 /* ========================= */
-/* Header и Footer           */
+/* Header и Footer */
 /* ========================= */
 .navbar {
     display: flex;
@@ -59,17 +60,21 @@ body {
     padding: 20px;
     width: 100%;
 }
+
 .logo {
     font-size: 1.5em;
     font-weight: bold;
 }
+
 .navbar nav ul {
     display: flex;
     list-style: none;
 }
+
 .navbar nav ul li {
     margin: 0 10px;
 }
+
 .navbar nav ul li a {
     text-decoration: none;
     color: black;
@@ -77,14 +82,17 @@ body {
     font-weight: bold;
     transition: color 0.3s;
 }
+
 .navbar nav ul li a.active {
     color: red;
 }
+
 .menu-btn {
     display: none;
     font-size: 1.5em;
     cursor: pointer;
 }
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -94,16 +102,19 @@ footer {
     width: 100%;
     flex-wrap: wrap;
 }
+
 footer p {
     flex-grow: 1;
     text-align: center;
 }
+
 .social-icons {
     display: flex;
     justify-content: flex-end;
     gap: 8px;
     flex-wrap: wrap;
 }
+
 .social-icons a {
     display: flex;
     align-items: center;
@@ -112,6 +123,7 @@ footer p {
     height: 50px;
     transition: transform 0.2s ease-in-out;
 }
+
 .social-icons img {
     width: 40px;
     height: 40px;
@@ -119,24 +131,24 @@ footer p {
     opacity: 0.8;
     transition: opacity 0.3s;
 }
+
 .social-icons img:hover {
     opacity: 1;
 }
+
 .contact-icon {
     width: 40px;
     height: auto;
     vertical-align: middle;
 }
 
-/* ====================== */
-/* Основной блок (main)  */
-/* ====================== */
+/* ============================= */
+/* Основной блок (main) */
+/* ============================= */
 main {
     flex: 1;
     display: flex;
     flex-direction: column;
-
-    /* Центрируем блок по вертикали и горизонтали */
     justify-content: center;
     align-items: center;
 
@@ -144,17 +156,21 @@ main {
     overflow-y: auto;
 }
 
+/* ============================= */
 /* Контент главной страницы */
+/* ============================= */
 .hero {
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
 }
+
 .profile-image {
     width: 200px;
     height: auto;
     margin-bottom: 15px;
 }
+
 .hero h1 {
     font-size: 4em;
     font-weight: bold;
@@ -163,87 +179,37 @@ main {
     letter-spacing: 1.5px;
 }
 
-/* ====================== */
-/* Анимации затухания     */
-/* ====================== */
+/* ============================= */
+/* Анимации затухания */
+/* ============================= */
 .blur-fade-in {
     animation: blurFadeIn 1s forwards;
 }
+
 @keyframes blurFadeIn {
-    from { filter: blur(3px); opacity: 0; }
-    to { filter: blur(0); opacity: 1; }
+    from {
+        filter: blur(3px);
+        opacity: 0;
+    }
+    to {
+        filter: blur(0);
+        opacity: 1;
+    }
 }
+
 .blur-fade-out {
     animation: blurFadeOut 1s forwards;
 }
+
 @keyframes blurFadeOut {
-    from { filter: blur(0); opacity: 1; }
-    to { filter: blur(3px); opacity: 0; }
-}
-
-/* ====================== */
-/* Адаптивность          */
-/* ====================== */
-@media (max-width: 768px) {
-    .menu-btn {
-        display: block;
+    from {
+        filter: blur(0);
+        opacity: 1;
     }
-    .navbar nav ul {
-        display: none;
+    to {
+        filter: blur(3px);
+        opacity: 0;
     }
-    .navbar nav ul.active {
-        display: flex;
-        flex-direction: column;
-    }
-    footer p {
-        width: 100%;
-        text-align: center;
-    }
-    .social-icons a {
-        width: 40px;
-        height: 40px;
-    }
-    .social-icons img {
-        width: 30px;
-        height: 30px;
-    }
-}
-
-/* ============================= */
-/* Flip-контейнер (если нужно)  */
-/* ============================= */
-.flip-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    perspective: 1000px;
-}
-.flip-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-.flip-inner.flipped {
-    transform: rotateY(180deg);
-}
-.face {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.face.back {
-    transform: rotateY(180deg);
-    background: #ececec;
 }
 
 /* ============================= */
@@ -254,12 +220,14 @@ main {
     margin-top: auto;
     margin-bottom: auto;
 }
+
 .resume-content {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
+
 .resume-col {
     display: flex;
     flex-direction: column;
@@ -267,11 +235,13 @@ main {
     width: 200px;
     margin: 0 20px;
 }
+
 .resume-img {
     width: 120px;
     height: auto;
     margin-bottom: 15px;
 }
+
 .resume-btn {
     padding: 8px 16px;
     margin-top: 10px;
@@ -282,96 +252,112 @@ main {
     cursor: pointer;
     transition: background 0.3s;
 }
+
 .resume-btn:hover {
     background-color: #555;
 }
-.divider {
-    width: 1px;
-    height: 150px;
-    background-color: #000;
-    margin: 0 40px;
-}
-.resume-description {
-    margin-top: 30px;
-    max-width: 800px;
-    line-height: 1.5;
-    color: #333;
-    font-size: 1em;
-}
 
 /* ============================= */
-/* Детальное резюме прокрутка    */
+/* Детальное резюме (QA) */
 /* ============================= */
-.resume-detail {
+.resume-detail-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.resume-list {
     text-align: left;
-    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
 }
-.resume-detail h2 {
-    margin-bottom: 15px;
+
+/* Фото профиля */
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
 }
-.resume-detail p {
-    margin-bottom: 10px;
-    line-height: 1.5;
-}
-.back-btn {
-    margin-top: 20px;
+
+/* Кнопка Назад */
+.resume-back-btn {
     padding: 8px 16px;
+    margin-top: 10px;
     background-color: #333;
     color: #fff;
     border: none;
+    border-radius: 15px;
     cursor: pointer;
     transition: background 0.3s;
 }
-.back-btn:hover {
+
+.resume-back-btn:hover {
     background-color: #555;
 }
 
-/* =========================== */
+/* ============================= */
+/* Сертификаты (Дипломы) */
+/* ============================= */
+.certificates {
+    display: flex;
+    flex-direction: column; /* Размещаем изображения один под другим */
+    align-items: center; /* Центрируем по горизонтали */
+    gap: 20px; /* Отступ между изображениями */
+    margin-top: 20px;
+}
+
+.certificate-img {
+    width: 80%; /* Оптимальный размер (можно менять) */
+    max-width: 500px; /* Ограничиваем максимальную ширину */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================= */
 /* Timeline (вертикальная линия между блоками) */
-/* =========================== */
+/* ============================= */
 .timeline {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 0;
+    margin: 0px 0;
     position: relative;
 }
+
 .timeline-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 0;
+    margin: 10px 0;
 }
+
 .timeline-line {
     width: 1px;
     height: 50px;
     background: #000;
 }
+
 .timeline-content {
     text-align: center;
     max-width: 300px;
     margin-bottom: 5px;
 }
+
 .timeline-content h4 {
     margin-bottom: 5px;
     font-size: 1em;
     font-weight: bold;
     line-height: 1.3;
 }
+
 .timeline-content p {
     font-size: 0.9em;
     line-height: 1.4;
     margin-bottom: 0;
-}
-
-/* ===================================== */
-/* Центрирование детального резюме (QA)  */
-/* ===================================== */
-.resume-detail-centered {
-    display: flex;
-    flex-direction: column;
-    align-items: center;   /* центр по горизонтали */
-    text-align: center;    /* весь текст по центру */
-    max-width: 800px;
-    margin: 0 auto;
 }
