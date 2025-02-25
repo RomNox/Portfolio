@@ -401,12 +401,12 @@ document.addEventListener("DOMContentLoaded", function () {
     <h2>Contact me:</h2>
     <div class="contact-block" style="margin: 20px 0;">
       <img src="imeg/Phone.webp" alt="Phone" class="contact-icon">
-      <p>+38 068 262 07 98</p>
+      <p><br>+38 068 262 07 98</p>
       <p>+49 175 881 01 50</p>
     </div>
     <div class="contact-block" style="margin: 20px 0;">
       <img src="imeg/Mail.webp" alt="Mail" class="contact-icon">
-      <p>romaykin@gmail.com</p>
+      <p><br>romaykin@gmail.com</p>
     </div>
   </div>
   <div class="social-icons" style="justify-content: center; margin-top: 20px;">
