@@ -352,9 +352,9 @@ document.addEventListener("DOMContentLoaded", function () {
   <div class="portfolio-content">
     <div class="portfolio-col">
       <img class="portfolio-img" src="imeg/QA_Project.webp" alt="Проект 1">
-      <h3>Проект 1</h3>
+      <h3>QA Student Project</h3>
       <div class="download-button" data-file="files/project1.pdf">
-        <div class="text">Подробнее</div>
+        <div class="text">Download</div>
         <div class="progress-bar"></div>
         <svg x="0px" y="0px" viewBox="0 0 25 30">
           <path class="check" d="M2,19.2C5.9,23.6,9.4,28,9.4,28L23,2"/>
@@ -363,9 +363,9 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
     <div class="portfolio-col">
       <img class="portfolio-img" src="imeg/Java_Project.webp" alt="Проект 2">
-      <h3>Проект 2</h3>
+      <h3>Java Student Project</h3>
       <div class="download-button" data-file="files/project2.pdf">
-        <div class="text">Подробнее</div>
+        <div class="text">Download</div>
         <div class="progress-bar"></div>
         <svg x="0px" y="0px" viewBox="0 0 25 30">
           <path class="check" d="M2,19.2C5.9,23.6,9.4,28,9.4,28L23,2"/>
@@ -374,9 +374,9 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
     <div class="portfolio-col">
       <img class="portfolio-img" src="imeg/CRM_Project.webp" alt="Проект 3">
-      <h3>Проект 3</h3>
+      <h3>CRM Project</h3>
       <div class="download-button" data-file="files/project3.pdf">
-        <div class="text">Подробнее</div>
+        <div class="text">Download</div>
         <div class="progress-bar"></div>
         <svg x="0px" y="0px" viewBox="0 0 25 30">
           <path class="check" d="M2,19.2C5.9,23.6,9.4,28,9.4,28L23,2"/>
@@ -384,8 +384,8 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     </div>
   </div>
-  <p class="portfolio-description">
-    Краткое описание проектов. Нажмите "Подробнее", чтобы скачать подробное описание проекта.
+  <br><p class="portfolio-description">
+    Here you can download project presentations that provide a detailed description of the concepts, goals, tasks, and achieved results. The materials include technical specifications, implementation diagrams, and additional links for an in-depth examination of each case. Moreover, you can explore most of the projects on my GitHub in the myCases section.
   </p>
 </section>
       `,
