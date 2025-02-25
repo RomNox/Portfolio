@@ -73,8 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
   <br><p class="resume-description">
-    Здесь приведено краткое резюме, подчёркивающее мой опыт в тестировании и разработке.
-    Нажмите "Подробнее", чтобы увидеть полную версию.
+    Here you can review a detailed resume that thoroughly describes my professional experience in testing and development. The materials include key milestones, technical skills, and certificate information. Click 'Read more' to see the full version.
   </p>
 </section>`,
             footer: originalFooterHTML,
