@@ -36,17 +36,13 @@ body {
     background-image: url("https://www.transparenttextures.com/patterns/fabric-of-squares.png");
     background-blend-mode: overlay;
     box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.4);
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 5vh;
-
     transition: transform 0.8s;
     transform-style: preserve-3d;
     perspective: 1000px;
-
-    /* Скрываем общий scroll body, прокрутка будет внутри main */
     overflow: hidden;
 }
 
@@ -151,8 +147,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* Прокрутка при большом контенте */
     overflow-y: auto;
 }
 
@@ -275,7 +269,6 @@ main {
     margin: 0 auto;
 }
 
-/* Фото профиля */
 .profile-photo {
     width: 180px;
     height: 180px;
@@ -284,7 +277,6 @@ main {
     margin-bottom: 20px;
 }
 
-/* Кнопка Назад */
 .resume-back-btn {
     padding: 8px 16px;
     margin-top: 10px;
@@ -389,21 +381,56 @@ main {
     height: auto;
 }
 
-.portfolio-btn {
-    padding: 8px 16px;
-    margin-top: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 15px;
+/* Стили для анимированной кнопки скачивания */
+.download-button {
+    background: #2B2D2F;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    margin: 15px auto 0;
     cursor: pointer;
-    transition: background 0.3s;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
-.portfolio-btn:hover {
-    background-color: #555;
+.download-button .text {
+    font: 1rem/1 "Courier New", monospace;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
 
-.portfolio-description {
-    margin-top: 20px;
+.download-button .progress-bar {
+    position: absolute;
+    height: 10px;
+    width: 0;
+    right: 0;
+    top: 50%;
+    left: 50%;
+    border-radius: 200px;
+    transform: translateY(-50%) translateX(-50%);
+    background: #d8bc86;
+    z-index: 1;
+}
+
+.download-button svg {
+    width: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    z-index: 3;
+}
+
+.download-button .check {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }

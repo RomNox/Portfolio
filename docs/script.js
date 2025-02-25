@@ -56,7 +56,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 bindNavLinks();
             }
         },
-
         "resume": {
             html: `
 <section class="resume-section">
@@ -89,7 +88,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 bindNavLinks();
             }
         },
-
         "resumeQA": {
             html: `
 <div style="max-height:calc(100% - 40px); overflow-y:auto; padding:20px;">
@@ -238,7 +236,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 bindNavLinks();
             }
         },
-
         "resumeFS": {
             html: `
 <div style="max-height:calc(100% - 40px); overflow-y:auto; padding:20px;">
@@ -348,7 +345,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 bindNavLinks();
             }
         },
-
         "portfolio": {
             html: `
 <section class="portfolio-section">
@@ -357,17 +353,35 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="portfolio-col">
       <img class="portfolio-img" src="imeg/QA_Project.webp" alt="Проект 1">
       <h3>Проект 1</h3>
-      <button class="portfolio-btn" data-file="files/project1.pdf">Подробнее</button>
+      <div class="download-button" data-file="files/project1.pdf">
+        <div class="text">Подробнее</div>
+        <div class="progress-bar"></div>
+        <svg x="0px" y="0px" viewBox="0 0 25 30">
+          <path class="check" d="M2,19.2C5.9,23.6,9.4,28,9.4,28L23,2"/>
+        </svg>
+      </div>
     </div>
     <div class="portfolio-col">
       <img class="portfolio-img" src="imeg/Java_Project.webp" alt="Проект 2">
       <h3>Проект 2</h3>
-      <button class="portfolio-btn" data-file="files/project2.pdf">Подробнее</button>
+      <div class="download-button" data-file="files/project2.pdf">
+        <div class="text">Подробнее</div>
+        <div class="progress-bar"></div>
+        <svg x="0px" y="0px" viewBox="0 0 25 30">
+          <path class="check" d="M2,19.2C5.9,23.6,9.4,28,9.4,28L23,2"/>
+        </svg>
+      </div>
     </div>
     <div class="portfolio-col">
       <img class="portfolio-img" src="imeg/CRM_Project.webp" alt="Проект 3">
       <h3>Проект 3</h3>
-      <button class="portfolio-btn" data-file="files/project3.pdf">Подробнее</button>
+      <div class="download-button" data-file="files/project3.pdf">
+        <div class="text">Подробнее</div>
+        <div class="progress-bar"></div>
+        <svg x="0px" y="0px" viewBox="0 0 25 30">
+          <path class="check" d="M2,19.2C5.9,23.6,9.4,28,9.4,28L23,2"/>
+        </svg>
+      </div>
     </div>
   </div>
   <p class="portfolio-description">
@@ -377,22 +391,10 @@ document.addEventListener("DOMContentLoaded", function () {
       `,
             footer: originalFooterHTML,
             onLoad: function() {
-                const portfolioBtns = document.querySelectorAll(".portfolio-btn");
-                portfolioBtns.forEach(btn => {
-                    btn.addEventListener("click", function() {
-                        const fileUrl = this.dataset.file;
-                        const link = document.createElement('a');
-                        link.href = fileUrl;
-                        link.download = ''; // можно задать имя файла
-                        document.body.appendChild(link);
-                        link.click();
-                        document.body.removeChild(link);
-                    });
-                });
+                initDownloadButtons();
                 bindNavLinks();
             }
         },
-
         "contacts": {
             html: `
 <section class="contacts-section">
@@ -479,6 +481,73 @@ document.addEventListener("DOMContentLoaded", function () {
                 newNavLinks.forEach(l => l.classList.remove("active"));
                 this.classList.add("active");
                 loadPage(this.dataset.page);
+            });
+        });
+    }
+
+    // ---------------------------
+    // Инициализация анимированных кнопок скачивания
+    // ---------------------------
+    function initDownloadButtons() {
+        $(".download-button").each(function(){
+            var $btn = $(this);
+            var fileUrl = $btn.data('file');
+            var pathEl = $btn.find(".check")[0];
+            var offset = anime.setDashoffset(pathEl);
+            pathEl.setAttribute("stroke-dashoffset", offset);
+
+            var timeline = anime.timeline({ autoplay: false });
+
+            timeline
+                .add({
+                    targets: $btn.find(".text")[0],
+                    duration: 1,
+                    opacity: 0
+                })
+                .add({
+                    targets: $btn[0],
+                    duration: 1200,
+                    height: "3px",
+                    width: "200px",
+                    backgroundColor: "#2B2D2F",
+                    borderRadius: "200px"
+                })
+                .add({
+                    targets: $btn.find(".progress-bar")[0],
+                    duration: 900,
+                    width: "200px",
+                    easing: "linear"
+                })
+                .add({
+                    targets: $btn[0],
+                    duration: 750,
+                    width: "40px",
+                    height: "40px",
+                    borderRadius: "50%",
+                    backgroundColor: "#d8bc86"
+                })
+                .add({
+                    targets: $btn.find(".progress-bar")[0],
+                    duration: 1,
+                    opacity: 0
+                })
+                .add({
+                    targets: pathEl,
+                    strokeDashoffset: [offset, 0],
+                    duration: 200,
+                    easing: "easeInOutSine",
+                    complete: function(){
+                        var a = document.createElement('a');
+                        a.href = fileUrl;
+                        a.download = '';
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                    }
+                });
+
+            $btn.on('click', function(){
+                timeline.play();
             });
         });
     }
