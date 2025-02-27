@@ -444,6 +444,7 @@ main {
     .navbar {
         flex-direction: column; /* Переводим элементы в колонку */
         align-items: center;    /* Выравниваем элементы по центру */
+        padding-bottom: 5px;
     }
     /* Скрытие кнопки бургер-меню на мобильных устройствах */
     .menu-btn {
@@ -508,6 +509,7 @@ main {
         flex-direction: column;   /* Элементы располагаются вертикально */
         align-items: center;      /* Центрирование по горизонтали */
         text-align: center;
+        padding-top: 5px;
     }
     /* Иконки социальных сетей — располагаются вверху */
     footer .social-icons {
