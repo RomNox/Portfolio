@@ -1,0 +1,433 @@
+Документация проекта
+
+Описание классов переменных и методов
+
+1. Класс User
+Пакет: org.gpoup492project2.entity
+
+Описание: Класс User представляет пользователя системы. Содержит информацию о пользователе, включая его идентификатор, имя, фамилию, логин и пароль.
+
+Поля:
+
+private int id - Уникальный идентификатор пользователя.
+private String name - Имя пользователя.
+private String surname - Фамилия пользователя.
+private String login - Логин пользователя.
+private String password - Пароль пользователя (хранится в зашифрованном виде).
+Методы:
+
+Конструктор: User(int id, String name, String surname, String login, String password)
+Инициализирует объект User с заданными параметрами.
+public int getId() - Возвращает идентификатор пользователя.
+public String getName() - Возвращает имя пользователя.
+public String getSurname() - Возвращает фамилию пользователя.
+public String getLogin() - Возвращает логин пользователя.
+public String getPassword() - Возвращает зашифрованный пароль пользователя.
+public void setName(String name) - Устанавливает имя пользователя.
+public void setSurname(String surname) - Устанавливает фамилию пользователя.
+public void setLogin(String login) - Устанавливает логин пользователя.
+public void setPassword(String password) - Устанавливает зашифрованный пароль пользователя.
+public boolean checkPassword(String password) - Проверяет, соответствует ли введенный пароль зашифрованному паролю пользователя.
+2. Класс Project
+Пакет: org.gpoup492project2.entity
+
+Описание: Класс Project представляет проект в системе. Содержит информацию о проекте, такую как название, описание, дедлайн, приоритет, статус, исполнитель и список задач и комментариев.
+
+Поля:
+
+private String id - Уникальный идентификатор проекта.
+private String title - Название проекта.
+private String description - Описание проекта.
+private LocalDate created - Дата создания проекта.
+private LocalDate deadline - Дата завершения проекта.
+private String priority - Приоритет проекта.
+private String status - Статус проекта.
+private User executor - Исполнитель проекта.
+private List<Task> tasks - Список задач, связанных с проектом.
+private List<Comment> comments - Список комментариев, связанных с проектом.
+Методы:
+
+Конструктор: Project(String id, String title, String description, LocalDate created, LocalDate deadline, String priority, String status, User executor)
+Инициализирует объект Project с заданными параметрами.
+public void addTask(Task task) - Добавляет задачу в проект.
+public void removeTask(Task task) - Удаляет задачу из проекта.
+public void addComment(Comment comment) - Добавляет комментарий к проекту.
+public void removeComment(Comment comment) - Удаляет комментарий из проекта.
+public String getId() - Возвращает идентификатор проекта.
+public String getTitle() - Возвращает название проекта.
+public String getDescription() - Возвращает описание проекта.
+public LocalDate getCreated() - Возвращает дату создания проекта.
+public LocalDate getDeadline() - Возвращает дедлайн проекта.
+public String getPriority() - Возвращает приоритет проекта.
+public String getStatus() - Возвращает статус проекта.
+public User getExecutor() - Возвращает исполнителя проекта.
+public List<Task> getTasks() - Возвращает список задач проекта.
+public List<Comment> getComments() - Возвращает список комментариев проекта.
+public void setTitle(String title) - Устанавливает название проекта.
+public void setDescription(String description) - Устанавливает описание проекта.
+public void setDeadline(LocalDate deadline) - Устанавливает дедлайн проекта.
+public void setPriority(String priority) - Устанавливает приоритет проекта.
+public void setStatus(String status) - Устанавливает статус проекта.
+public void setExecutor(User executor) - Устанавливает исполнителя проекта.
+3. Класс Task
+Пакет: org.gpoup492project2.entity
+
+Описание: Класс Task представляет задачу в системе. Содержит информацию о задаче, такую как название, описание, дедлайн, приоритет, статус и комментарии.
+
+Поля:
+
+private String id - Уникальный идентификатор задачи.
+private String title - Название задачи.
+private String description - Описание задачи.
+private LocalDate created - Дата создания задачи.
+private LocalDate deadline - Дата завершения задачи.
+private String priority - Приоритет задачи.
+private String status - Статус задачи.
+private List<Comment> comments - Список комментариев задачи.
+Методы:
+
+Конструктор: Task(String title, String projectId)
+Инициализирует объект Task с заданными параметрами.
+public void addComment(Comment comment) - Добавляет комментарий к задаче.
+public void removeComment(Comment comment) - Удаляет комментарий из задачи.
+public String getId() - Возвращает идентификатор задачи.
+public String getTitle() - Возвращает название задачи.
+public String getDescription() - Возвращает описание задачи.
+public LocalDate getCreated() - Возвращает дату создания задачи.
+public LocalDate getDeadline() - Возвращает дедлайн задачи.
+public String getPriority() - Возвращает приоритет задачи.
+public String getStatus() - Возвращает статус задачи.
+public List<Comment> getComments() - Возвращает список комментариев задачи.
+public void setTitle(String title) - Устанавливает название задачи.
+public void setDescription(String description) - Устанавливает описание задачи.
+public void setDeadline(LocalDate deadline) - Устанавливает дедлайн задачи.
+public void setPriority(String priority) - Устанавливает приоритет задачи.
+public void setStatus(String status) - Устанавливает статус задачи.
+4. Класс Comment
+Пакет: org.gpoup492project2.entity
+
+Описание: Класс Comment представляет комментарий, который может быть добавлен к проекту или задаче.
+
+Поля:
+
+private String id - Уникальный идентификатор комментария.
+private String text - Текст комментария.
+private LocalDate date - Дата создания комментария.
+private User author - Автор комментария.
+Методы:
+
+Конструктор: Comment(String id, String text, LocalDate date, User author)
+Инициализирует объект Comment с заданными параметрами.
+public String getId() - Возвращает идентификатор комментария.
+public String getText() - Возвращает текст комментария.
+public LocalDate getDate() - Возвращает дату создания комментария.
+public User getAuthor() - Возвращает автора комментария.
+public void setText(String text) - Устанавливает текст комментария.
+public void setDate(LocalDate date) - Устанавливает дату создания комментария.
+public void setAuthor(User author) - Устанавливает автора комментария.
+5. Класс TaskRepository
+Пакет: org.gpoup492project2.Repository
+
+Описание: Класс TaskRepository отвечает за управление задачами, включая добавление, удаление и получение задач.
+
+Методы:
+
+public void addTask(Task task) - Добавляет задачу в репозиторий.
+public Task getTaskById(String id) - Возвращает задачу по идентификатору.
+public void updateTask(Task task) - Обновляет задачу в репозитории.
+public void deleteTask(String id) - Удаляет задачу из репозитория.
+public Map<String, Task> getAllTasks() - Возвращает все задачи в виде карты.
+6. Класс ProjectRepository
+Пакет: org.gpoup492project2.Repository
+
+Описание: Класс ProjectRepository отвечает за управление проектами, включая добавление, удаление и получение проектов.
+
+Методы:
+
+public void save(Project project) - Сохраняет проект в репозиторий.
+public Project getProjectById(String id) - Возвращает проект по идентификатору.
+public void deleteProject(String id) - Удаляет проект из репозитория.
+public Map<String, Project> getAllProjects() - Возвращает все проекты в виде карты.
+7. Класс ProjectService
+Пакет: org.gpoup492project2.service
+
+Описание: Класс ProjectService предоставляет методы для управления проектами, такие как создание, редактирование, удаление и получение проектов.
+
+Методы:
+
+public Project createProject(ProjectDto projectDto) - Создает новый проект.
+public Project getProjectById(String projectId) - Получает проект по идентификатору.
+public String updateProjectTitle(String projectId, String newTitle) - Обновляет название проекта.
+public void assignExecutor(String projectId, User executor) - Назначает ответственного за проект.
+public void deleteProject(String projectId) - Удаляет проект.
+public List<Project> getAllProjects() - Возвращает все проекты.
+8. Класс TaskService
+Пакет: org.gpoup492project2.service
+
+Описание: Класс TaskService предоставляет методы для управления задачами, такие как создание, редактирование, удаление и получение задач.
+
+Методы:
+
+public Task createTask(TaskDto taskDto) - Создает новую задачу.
+public String updateTask(TaskDto taskDto) - Обновляет задачу.
+public void deleteTask(String taskId) - Удаляет задачу.
+public void addCommentToTask(String taskId, Comment comment) - Добавляет комментарий к задаче.
+public List<Comment> getCommentsByTaskId(String taskId) - Получает комментарии задачи.
+public void deleteCommentFromTask(String commentId) - Удаляет комментарий из задачи.
+9. Класс ProjectDto
+Пакет: org.gpoup492project2.dto
+
+Описание: Класс ProjectDto представляет объект передачи данных (DTO) для проекта, используемый для передачи данных между слоями приложения.
+
+Поля:
+
+private String id - Идентификатор проекта.
+private String title - Название проекта.
+private String description - Описание проекта.
+private LocalDate created - Дата создания проекта.
+private LocalDate deadline - Дата завершения проекта.
+private String priority - Приоритет проекта.
+private String status - Статус проекта.
+private String executorId - Идентификатор исполнителя проекта.
+Методы:
+
+Конструктор: ProjectDto(String id, String title, String description, LocalDate created, LocalDate deadline, String priority, String status, String executorId)
+Инициализирует объект ProjectDto с заданными параметрами.
+public String getId() - Возвращает идентификатор проекта.
+public String getTitle() - Возвращает название проекта.
+public String getDescription() - Возвращает описание проекта.
+public LocalDate getCreated() - Возвращает дату создания проекта.
+public LocalDate getDeadline() - Возвращает дедлайн проекта.
+public String getPriority() - Возвращает приоритет проекта.
+public String getStatus() - Возвращает статус проекта.
+public String getExecutorId() - Возвращает идентификатор исполнителя проекта.
+public void setTitle(String title) - Устанавливает название проекта.
+public void setDescription(String description) - Устанавливает описание проекта.
+public void setDeadline(LocalDate deadline) - Устанавливает дедлайн проекта.
+public void setPriority(String priority) - Устанавливает приоритет проекта.
+public void setStatus(String status) - Устанавливает статус проекта.
+public void setExecutorId(String executorId) - Устанавливает идентификатор исполнителя проекта.
+10. Класс TaskDto
+Пакет: org.gpoup492project2.dto
+
+Описание: Класс TaskDto представляет объект передачи данных (DTO) для задачи, используемый для передачи данных между слоями приложения.
+
+Поля:
+
+private String id - Идентификатор задачи.
+private String title - Название задачи.
+private String description - Описание задачи.
+private LocalDate created - Дата создания задачи.
+private LocalDate deadline - Дата завершения задачи.
+private String priority - Приоритет задачи.
+private String status - Статус задачи.
+private String projectId - Идентификатор проекта, к которому относится задача.
+Методы:
+
+Конструктор: TaskDto(String id, String title, String description, LocalDate created, LocalDate deadline, String priority, String status, String projectId)
+Инициализирует объект TaskDto с заданными параметрами.
+public String getId() - Возвращает идентификатор задачи.
+public String getTitle() - Возвращает название задачи.
+public String getDescription() - Возвращает описание задачи.
+public LocalDate getCreated() - Возвращает дату создания задачи.
+public LocalDate getDeadline() - Возвращает дедлайн задачи.
+public String getPriority() - Возвращает приоритет задачи.
+public String getStatus() - Возвращает статус задачи.
+public String getProjectId() - Возвращает идентификатор проекта.
+public void setTitle(String title) - Устанавливает название задачи.
+public void setDescription(String description) - Устанавливает описание задачи.
+public void setDeadline(LocalDate deadline) - Устанавливает дедлайн задачи.
+public void setPriority(String priority) - Устанавливает приоритет задачи.
+public void setStatus(String status) - Устанавливает статус задачи.
+public void setProjectId(String projectId) - Устанавливает идентификатор проекта.
+
+______________________________________________________________________________________________________________________
+
+Связь между методами
+
+1. Класс ProjectService
+createProject(ProjectDto projectDto)
+
+Создает новый проект.
+Взаимодействует с методом save(Project project) класса ProjectRepository, чтобы сохранить проект в базе данных.
+getProjectById(String projectId)
+
+Получает проект по идентификатору.
+Взаимодействует с методом getProjectById(String id) класса ProjectRepository, чтобы извлечь проект из базы данных.
+updateProjectTitle(String projectId, String newTitle)
+
+Обновляет название проекта.
+Взаимодействует с методом getProjectById(String id) класса ProjectRepository, чтобы получить проект.
+Взаимодействует с методом save(Project project) класса ProjectRepository, чтобы сохранить обновленный проект.
+assignExecutor(String projectId, User executor)
+
+Назначает ответственного за проект.
+Взаимодействует с методом getProjectById(String id) класса ProjectRepository, чтобы получить проект.
+Взаимодействует с методом save(Project project) класса ProjectRepository, чтобы сохранить обновленный проект.
+deleteProject(String projectId)
+
+Удаляет проект.
+Взаимодействует с методом deleteProject(String id) класса ProjectRepository, чтобы удалить проект из базы данных.
+getAllProjects()
+
+Возвращает все проекты.
+Взаимодействует с методом getAllProjects() класса ProjectRepository, чтобы получить список всех проектов.
+2. Класс TaskService
+createTask(TaskDto taskDto)
+
+Создает новую задачу.
+Взаимодействует с методом save(Task task) класса TaskRepository, чтобы сохранить задачу в базе данных.
+updateTask(TaskDto taskDto)
+
+Обновляет задачу.
+Взаимодействует с методом getTaskById(String id) класса TaskRepository, чтобы получить задачу.
+Взаимодействует с методом save(Task task) класса TaskRepository, чтобы сохранить обновленную задачу.
+deleteTask(String taskId)
+
+Удаляет задачу.
+Взаимодействует с методом deleteTask(String id) класса TaskRepository, чтобы удалить задачу из базы данных.
+addCommentToTask(String taskId, Comment comment)
+
+Добавляет комментарий к задаче.
+Взаимодействует с методом getTaskById(String id) класса TaskRepository, чтобы получить задачу.
+Обновляет список комментариев задачи и сохраняет изменения в TaskRepository.
+getCommentsByTaskId(String taskId)
+
+Получает комментарии задачи.
+Взаимодействует с методом getTaskById(String id) класса TaskRepository, чтобы получить задачу и ее комментарии.
+deleteCommentFromTask(String commentId)
+
+Удаляет комментарий из задачи.
+Взаимодействует с методом getTaskById(String id) класса TaskRepository, чтобы получить задачу.
+Обновляет список комментариев задачи и сохраняет изменения в TaskRepository.
+3. Класс TaskRepository
+addTask(Task task)
+
+Добавляет задачу в репозиторий.
+Взаимодействует с внутренней структурой данных для хранения задач (например, Map<String, Task>).
+getTaskById(String id)
+
+Возвращает задачу по идентификатору.
+Взаимодействует с внутренней структурой данных для получения задачи.
+updateTask(Task task)
+
+Обновляет задачу в репозитории.
+Взаимодействует с внутренней структурой данных для сохранения обновленной задачи.
+deleteTask(String id)
+
+Удаляет задачу из репозитория.
+Взаимодействует с внутренней структурой данных для удаления задачи.
+getAllTasks()
+
+Возвращает все задачи.
+Взаимодействует с внутренней структурой данных для получения списка всех задач.
+4. Класс ProjectRepository
+save(Project project)
+
+Сохраняет проект в репозитории.
+Взаимодействует с внутренней структурой данных для сохранения проекта.
+getProjectById(String id)
+
+Возвращает проект по идентификатору.
+Взаимодействует с внутренней структурой данных для получения проекта.
+deleteProject(String id)
+
+Удаляет проект из репозитория.
+Взаимодействует с внутренней структурой данных для удаления проекта.
+getAllProjects()
+
+Возвращает все проекты.
+Взаимодействует с внутренней структурой данных для получения списка всех проектов.
+5. Класс Comment
+Связь с Task и Project
+
+Объект Comment может быть добавлен к задачам и проектам через методы addComment и removeComment классов Task и Project.
+Методы getText(), getDate(), getAuthor()
+
+Используются для получения информации о комментарии, такой как текст, дата создания и автор.
+
+-----------------------------------------------------------------------------------------------------------------
+
+Связь между классами
+
+1. Связь между UserMenu и другими классами
+UserMenu
+Основной класс, управляющий пользовательским интерфейсом и меню.
+
+Взаимодействует с классами ProjectService, TaskService, UserService, и UserInput.
+
+ProjectService
+
+Используется для создания, получения, обновления и удаления проектов.
+Методы, такие как createProject(), getProjectById(), updateProjectTitle(), assignExecutor(), и deleteProject() вызываются для управления проектами.
+TaskService
+
+Используется для создания, обновления и удаления задач.
+Методы, такие как createTask(), updateTask(), и deleteTask(), вызываются для управления задачами.
+Взаимодействует также с методами для управления комментариями задач.
+UserService
+
+Используется для создания, получения и удаления пользователей.
+Методы, такие как createUser(), getUserById(), и deleteUser(), вызываются для управления пользователями.
+Также используется для аутентификации пользователя через метод authenticateUser().
+UserInput
+
+Используется для получения ввода от пользователя через консоль.
+Методы, такие как inputInt(), inputDouble(), и inputText(), вызываются для получения различных типов данных от пользователя.
+2. Связь между ProjectService и другими классами
+ProjectService
+Управляет проектами и взаимодействует с ProjectRepository и TaskService.
+
+ProjectRepository
+
+Сохраняет, получает и удаляет проекты из хранилища данных.
+Методы, такие как save(), getProjectById(), deleteProject(), и getAllProjects() используются для взаимодействия с репозиторием проектов.
+TaskService
+
+Управляет задачами и взаимодействует с проектами.
+Методы addTaskToProject() и removeTaskFromProject() вызываются для добавления и удаления задач из проектов.
+3. Связь между TaskService и другими классами
+TaskService
+Управляет задачами и взаимодействует с TaskRepository и CommentService.
+
+TaskRepository
+
+Сохраняет, получает, обновляет и удаляет задачи из хранилища данных.
+Методы, такие как save(), getTaskById(), updateTask(), deleteTask(), и getAllTasks() используются для взаимодействия с репозиторием задач.
+CommentService
+
+Управляет комментариями задач.
+Методы для добавления, получения и удаления комментариев взаимодействуют с задачами через методы addCommentToTask(), getCommentsByTaskId(), и deleteCommentFromTask().
+4. Связь между UserService и другими классами
+UserService
+Управляет пользователями и взаимодействует с UserRepository.
+
+UserRepository
+
+Сохраняет, получает и удаляет пользователей из хранилища данных.
+Методы, такие как save(), getUserById(), deleteUser(), и getAllUsers() используются для взаимодействия с репозиторием пользователей.
+5. Связь между Project и Task
+Project
+
+Содержит список задач (List<Task> tasks).
+Методы для добавления и удаления задач взаимодействуют с объектами Task.
+Task
+
+Связан с проектами через Project и может содержать комментарии (List<Comment>).
+6. Связь между Task и Comment
+Task
+
+Содержит список комментариев (List<Comment> comments).
+Методы для добавления, получения и удаления комментариев взаимодействуют с объектами Comment.
+Comment
+
+Используется для предоставления дополнительной информации и обратной связи по задачам и проектам.
+7. Связь между ProjectDto, TaskDto и сущностями
+ProjectDto
+
+Передает данные между слоями представления и бизнес-логики для создания или обновления проектов.
+Преобразуется в объект Project через методы в ProjectService.
+TaskDto
+
+Передает данные между слоями представления и бизнес-логики для создания или обновления задач.
+Преобразуется в объект Task через методы в TaskService.

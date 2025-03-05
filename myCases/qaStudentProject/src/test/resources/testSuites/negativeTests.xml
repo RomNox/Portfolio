@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Negative" verbose="1">
+    <test name="Negative">
+        <classes>
+            <class name="com.petscare.tests.LoginPageTests">
+                <methods>
+                    <include name=".*Negative.*"></include>
+                    <exclude name=".*Positive.*"></exclude>
+                </methods>
+            </class>
+            <class name="com.petscare.tests.RegistrationTests">
+                <methods>
+                    <include name=".*Negative.*"></include>
+                    <exclude name=".*Positive.*"></exclude>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+</suite>

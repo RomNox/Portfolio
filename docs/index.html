@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Фавикон -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+<div class="content-wrapper">
+    <!-- Навигация -->
+    <header class="navbar">
+        <div class="logo">BUSINESS CARD</div>
+        <button class="menu-btn">☰</button>
+        <nav>
+            <ul>
+                <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-page="resume">Resume</a></li>
+                <li><a href="#" class="nav-link" data-page="portfolio">Portfolio</a></li>
+                <li><a href="#" class="nav-link" data-page="contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основной контент -->
+    <main id="content">
+        <div class="hero">
+            <img class="profile-image" src="imeg/Logo.webp" alt="Profile Image">
+            <h1>I'M QA Tester</h1>
+            <br>
+            <p>Vladimir Romaikin</p>
+        </div>
+    </main>
+
+    <!-- Футер -->
+    <footer>
+        <div class="contact-info">
+            <p>Tel(Ukr): +38 068 2620798</p>
+            <p>Tel(Ger): +49 175 8810150</p>
+            <p>Email: romaykin@gmail.com</p>
+        </div>
+        <p>© 2025 Romaikin V.</p>
+        <div class="social-icons">
+            <a href="#"><img src="imeg/LinkedIn.webp" alt="LinkedIn"></a>
+            <a href="#"><img src="imeg/GitHub.webp" alt="GitHub"></a>
+            <a href="#"><img src="imeg/Whatsapp.webp" alt="Whatsapp"></a>
+            <a href="#"><img src="imeg/Skype.webp" alt="Skype"></a>
+        </div>
+    </footer>
+</div>
+
+<!-- Подключаем jQuery и anime.js -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+<!-- Скрипт для вычисления CSS-переменной --vh (для мобильных устройств) -->
+<script>
+    function setVhUnit() {
+        if (window.innerWidth <= 768) {
+            let vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        }
+    }
+    setVhUnit();
+    window.addEventListener('resize', setVhUnit);
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
