@@ -33,11 +33,11 @@
 
 ## 🏆 Main Projects
 
-| 🚀 Project | 🛠 Description | 💻 Technologies |
-|------------|---------------|-----------------|
-| [📌 Project1](main-projects/Project1) | QA automation project for web applications | Selenium, Java, TestNG |
-| [📌 Project2](main-projects/Project2) | FullStack development project | HTML/CSS, JavaScript, MySQL |
-| [📌 Project3](main-projects/Project3) | API testing for a REST service | Postman, Java |
+| 🚀 Project                                                   | 🛠 Description                                                                                                                                                                                                                                      | 💻 Technologies                                      |
+|--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| [📌 QA Student Project](https://github.com/RomNox/Portfolio/tree/main/myCases/qaStudentProject) | A test automation project demonstrating comprehensive test planning and management. The presentation in the folder details the testing process and the results obtained.                                                                      | Selenium, Java, TestNG, Postman, Jenkins             |
+| [📌 Java Student Project](https://github.com/RomNox/Portfolio/tree/main/myCases/javaStudentProject) | A FullStack development project showcasing server-side development and architectural solutions (with minimal frontend implementation). The presentation outlines the key features and architecture of the application.                        | Java, MySQL, Git                                    |
+| [📌 CRM System Project](https://github.com/RomNox/Portfolio/tree/main/myCases/crmProject)          | A CRM system project presented via a detailed presentation and documentation. The project code is not publicly available, but I am willing to demonstrate it upon request.                                                                         | Presentation, Documentation, Video Presentation     |
 
 ---
 
