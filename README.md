@@ -22,7 +22,7 @@ This repository is a portfolio that demonstrates my skills in **QA Automation** 
 ## 🔥 Main Technologies
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,js,html,css,git,junit,mysql,selenium,postman,jenkins">
+  <img src="https://skillicons.dev/icons?i=java,js,html,css,git,linux,mysql,selenium,postman,jenkins">
 </p>
 
 ---
