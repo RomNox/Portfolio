@@ -12,16 +12,17 @@
 
 This repository is a portfolio that demonstrates my skills in **QA Automation** and **FullStack Development**. It includes:
 
-- **Project Folders:** Individual directories containing projects that showcase my technical abilities. (Note: Each project uses its own build tools, so running them directly from this repository is not supported.)
+- **Project Folders:** Individual directories containing projects that showcase my technical abilities.  
+  *Note: Each project uses its own build tools, so running them directly from this repository is not supported.*
 - **Portfolio Website:** A dynamic, one-page site that acts as my digital business card and a live demonstration of my web development and animation skills.
-- **Diplomas & Resume:** Documents that verify my qualifications and detail the key milestones of my professional journey.
+- **Diplomas & Resume:** Documents that verify my qualifications, including my certificates in QA and FullStack development.
 
 ---
 
 ## 🔥 Main Technologies
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,js,python,selenium,react,nodejs,mysql,postman,git,github,linux">
+  <img src="https://skillicons.dev/icons?i=java,js,selenium,mysql,postman,git,github,linux">
 </p>
 
 ---
@@ -31,8 +32,8 @@ This repository is a portfolio that demonstrates my skills in **QA Automation** 
 | 🚀 Project | 🛠 Description | 💻 Technologies |
 |------------|---------------|-----------------|
 | [📌 Project1](main-projects/Project1) | QA automation project for web applications | Selenium, Java, TestNG |
-| [📌 Project2](main-projects/Project2) | FullStack development project | React, Node.js, MongoDB |
-| [📌 Project3](main-projects/Project3) | API testing for a REST service | Postman, Python, Flask |
+| [📌 Project2](main-projects/Project2) | FullStack development project | JavaScript, HTML/CSS, MySQL |
+| [📌 Project3](main-projects/Project3) | API testing for a REST service | Postman, Java |
 
 ---
 
@@ -49,15 +50,15 @@ Visit the [Portfolio Site](site-portfolio/) to see it in action.
 
 ---
 
-## 🔒 Diplomas & Resume
+## 🔒 Diplomas, Certifications & Resume
 
-This repository also contains my diplomas and a detailed resume, highlighting key milestones and technical expertise in both QA and FullStack development.
+This repository also contains my diplomas and certifications that validate my expertise in QA Automation and FullStack development, along with a detailed resume outlining key milestones in my professional journey.
 
 ---
 
 ## 📩 Contact Me
 
-If you have any questions or would like to discuss collaboration, feel free to reach out:
+If you have any questions or would like to discuss collaboration opportunities, feel free to reach out:
 
 - **Email:** [your-email@example.com](mailto:your-email@example.com)
 - **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
@@ -66,3 +67,4 @@ If you have any questions or would like to discuss collaboration, feel free to r
 ---
 
 <h3 align="center">⭐️ If you like the project, please star and follow!</h3>
+
