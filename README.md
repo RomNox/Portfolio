@@ -14,8 +14,8 @@ This repository is a portfolio that demonstrates my skills in **QA Automation** 
 
 - **Project Folders:** Individual directories containing projects that showcase my technical abilities.  
   *Note: Each project uses its own build tools, so running them directly from this repository is not supported.*
-- **Portfolio Website:** A dynamic, one-page site that acts as my digital business card and a live demonstration of my web development and animation skills.
-- **Diplomas & Resume:** Documents that verify my qualifications, including my certificates in QA and FullStack development.
+- **Portfolio Website:** A dynamic, one-page site that serves as my digital business card and a live demonstration of my web development and animation skills.
+- **Diplomas & Resume:** Documents verifying my qualifications – including certificates from my FullStack and QA courses.
 
 ---
 
@@ -32,7 +32,7 @@ This repository is a portfolio that demonstrates my skills in **QA Automation** 
 | 🚀 Project | 🛠 Description | 💻 Technologies |
 |------------|---------------|-----------------|
 | [📌 Project1](main-projects/Project1) | QA automation project for web applications | Selenium, Java, TestNG |
-| [📌 Project2](main-projects/Project2) | FullStack development project | JavaScript, HTML/CSS, MySQL |
+| [📌 Project2](main-projects/Project2) | FullStack development project | HTML/CSS, JavaScript, MySQL |
 | [📌 Project3](main-projects/Project3) | API testing for a REST service | Postman, Java |
 
 ---
@@ -45,14 +45,16 @@ For more examples of my work, please check out the [additional-projects](additio
 
 ## 🌍 Portfolio Website
 
-The portfolio website is included in this repository and showcases my skills in creating modern, animated web interfaces.  
+The portfolio website included in this repository showcases my skills in creating modern, animated web interfaces.  
 Visit the [Portfolio Site](site-portfolio/) to see it in action.
 
 ---
 
 ## 🔒 Diplomas, Certifications & Resume
 
-This repository also contains my diplomas and certifications that validate my expertise in QA Automation and FullStack development, along with a detailed resume outlining key milestones in my professional journey.
+This repository also contains my diplomas and certificates, which validate my expertise in both QA Automation and FullStack Development. They include:
+- A certificate for a FullStack Developer course covering Java Core, Databases (SQL & NoSQL), Linux, Git/GitHub, Maven, JUnit, Spring/Spring Boot, Hibernate, HTML/CSS, JavaScript ES6, TypeScript, React, Redux, Project Management, and more.
+- A certificate for a QA Manual and Automation Tester course covering Java Core, Databases (SQL & NoSQL), Linux, Git/GitHub, HTML/CSS, JavaScript, Test Design, Selenium, Postman, and additional testing tools.
 
 ---
 
@@ -67,4 +69,3 @@ If you have any questions or would like to discuss collaboration opportunities, 
 ---
 
 <h3 align="center">⭐️ If you like the project, please star and follow!</h3>
-
