@@ -57,8 +57,13 @@ These achievements reflect my professional approach and effectiveness in tacklin
 
 ## 🌍 Portfolio Website
 
-The portfolio website included in this repository showcases my skills in creating modern, animated web interfaces.  
-Visit the [Portfolio Site](site-portfolio/) to see it in action.
+The portfolio website in this repository is a simple one-page site designed to provide information about me in a comfortable and user-friendly format. While its primary purpose is to deliver essential details about my background, the site also subtly demonstrates my abilities in web interface development through the use of basic animation effects. Key features include:
+
+- **Responsive Design:** The site displays properly on various devices—from desktops to smartphones.
+- **Subtle Animations:** Gentle transitions and simple animations enhance the user experience without overwhelming the content.
+- **Clear and Intuitive Layout:** The page is structured for easy navigation, allowing visitors to quickly access key information about me.
+
+Visit the [Portfolio Website](https://romnox.github.io/Portfolio/) to see it in action.
 
 ---
 
