@@ -1,4 +1,4 @@
-<h1 align="center">🚀 RomNox | GitHub Portfolio 🚀</h1>
+<h1 align="center"> Romaikin GitHub Portfolio </h1>
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/RomNox/Portfolio?style=for-the-badge">
@@ -8,18 +8,18 @@
 
 ---
 
-## 🌟 О проекте
+## 🌟 About the Project
 
-Этот репозиторий — портфолио, демонстрирующее мои навыки в **автоматизации тестирования** и **FullStack-разработке**. Он включает в себя следующие разделы:
+This repository is a portfolio showcasing my skills in **test automation** and **FullStack development**. It includes the following sections:
 
-- **Папки проектов myCases:**  
-  В папке **myCases** собраны отдельные директории с проектами, которые демонстрируют мои технические способности. Каждый проект имеет свою уникальную систему сборки и отдельную документацию, поэтому их запуск напрямую не поддерживается. Однако вы можете изучить исходный код, чтобы ознакомиться с применяемыми технологиями и подходами.
+- **Project Folders (myCases):**  
+  The *myCases* folder contains individual directories with projects that demonstrate my technical capabilities. Each project has its own unique build system and separate documentation, so they cannot be run directly. However, you can review the source code to familiarize yourself with the technologies and approaches used.
 
-- **Сайт-визитка:**  
-  Динамичный одностраничный сайт, являющийся моей цифровой визитной карточкой, который отчасти демонстрирует мои умения в веб-разработке. Сайт выполнен с использованием современных веб-технологий, что позволяет создавать адаптивные и анимированные интерфейсы.
+- **Portfolio Website:**  
+  A dynamic one-page website that serves as my digital business card, which also partly demonstrates my web development skills. The site is built using modern web technologies, enabling adaptive and animated interfaces.
 
-- **Дипломы, сертификаты и резюме:**  
-  Здесь представлены документы, подтверждающие мою квалификацию в области QA и FullStack-разработки. Вы найдете сертификаты об участии в специализированных курсах, дипломы и подробное резюме, в котором описаны ключевые вехи моей профессиональной карьеры.
+- **Diplomas, Certifications & Resume:**  
+  This section includes documents that verify my qualifications in QA and FullStack development. You will find certificates from specialized courses, diplomas, and a detailed resume outlining the key milestones of my professional career.
 
 ---
 
@@ -41,9 +41,17 @@
 
 ---
 
-## 🛠 Additional Projects
+## 💼 Professional Achievements
 
-For more examples of my work, please check out the [additional-projects](additional-projects/) folder.
+This section highlights the key milestones and achievements in my career in testing and development:
+
+- **End-to-End Testing Cycle:** Developed and automated test scenarios to ensure software quality across functional, UI, API, load, and security testing.
+- **Test Automation:** Created automated tests using Selenium, TestNG, Postman, and Jenkins, significantly optimizing quality assurance processes.
+- **Test Documentation:** Prepared detailed documentation—including requirements analysis and test case development—validated by my diplomas and certificates.
+- **Project Management:** Led IT projects that demonstrate my skills in planning and coordinating both development and testing activities.
+- **Extensive Technical Expertise:** Possess a comprehensive understanding of both server-side and client-side development, reinforced by specialized training programs.
+
+These achievements reflect my professional approach and effectiveness in tackling complex challenges in QA and FullStack development.
 
 ---
 
