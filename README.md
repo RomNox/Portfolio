@@ -85,9 +85,13 @@ My detailed resume further outlines these skills and highlights the key mileston
 
 If you have any questions or would like to discuss collaboration opportunities, feel free to reach out:
 
-- **Email:** [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- **Telegram:** [@yourusername](https://t.me/yourusername)
+- **Email:** [romaykin@gmail.com](mailto:romaykin@gmail.com)
+- **LinkedIn:** [linkedin.com/in/romaykin](https://www.linkedin.com/in/romaykin)
+- **WhatsApp:** [Chat on WhatsApp](https://api.whatsapp.com/send?phone=+380682620798)
+- **Zoom Chat:** [Launch Zoom Chat](https://us05web.zoom.us/launch/chat?src=direct_chat_link&email=romaykin%40gmail.com)
+- **Tel (Germany):** +49 175 881 01 50
+- **Tel (Ukraine):** +38 068 262 07 98
+
 
 ---
 
