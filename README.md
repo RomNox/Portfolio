@@ -1,4 +1,4 @@
-<h1 align="center"> Romaikin GitHub Portfolio </h1>
+<h1 align="center">🚀 RomNox | GitHub Portfolio 🚀</h1>
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/RomNox/Portfolio?style=for-the-badge">
@@ -23,12 +23,12 @@ This repository is a portfolio showcasing my skills in **test automation** and *
 
 ---
 
-<!-- Animated Divider -->
-<svg width="100%" height="50" viewBox="0 0 1200 120" preserveAspectRatio="none">
-  <path d="M0,0V46.29c47.79,22,103.59,29.61,158,16,70-19.09,136-70.11,206-73.09,86.76-3.84,172,43.67,258,48.18,86.28,4.72,172-35.19,258-41.77,70-5.09,136,10.09,206,26.18V0Z" fill="#71DFBE">
-    <animate attributeName="fill" values="#71DFBE;#2B2D2F;#71DFBE" dur="3s" repeatCount="indefinite" />
-  </path>
-</svg>
+<!-- Static SVG Divider -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shahbaz17/github-readme-divider/main/divider.svg" width="100%">
+</p>
+
+---
 
 ## 🔥 Main Technologies
 
@@ -36,16 +36,16 @@ This repository is a portfolio showcasing my skills in **test automation** and *
   <img src="https://skillicons.dev/icons?i=java,js,html,css,git,linux,mysql,selenium,postman,jenkins">
 </p>
 
-The focus is on testing technologies (Selenium, Postman, Jenkins), as well as on web development (HTML/CSS, JavaScript), server-side development in Java, version control (Git) and databases (MySQL).
+The focus is on testing technologies (Selenium, Postman, Jenkins), as well as on web development (HTML/CSS, JavaScript), server-side development in Java, version control (Git), and databases (MySQL).
 
 ---
 
-<!-- Animated Divider -->
-<svg width="100%" height="50" viewBox="0 0 1200 120" preserveAspectRatio="none">
-  <path d="M0,0V46.29c47.79,22,103.59,29.61,158,16,70-19.09,136-70.11,206-73.09,86.76-3.84,172,43.67,258,48.18,86.28,4.72,172-35.19,258-41.77,70-5.09,136,10.09,206,26.18V0Z" fill="#71DFBE">
-    <animate attributeName="fill" values="#71DFBE;#2B2D2F;#71DFBE" dur="3s" repeatCount="indefinite" />
-  </path>
-</svg>
+<!-- Static SVG Divider -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shahbaz17/github-readme-divider/main/divider.svg" width="100%">
+</p>
+
+---
 
 ## 🏆 Project Examples
 
@@ -57,12 +57,12 @@ The focus is on testing technologies (Selenium, Postman, Jenkins), as well as on
 
 ---
 
-<!-- Animated Divider -->
-<svg width="100%" height="50" viewBox="0 0 1200 120" preserveAspectRatio="none">
-  <path d="M0,0V46.29c47.79,22,103.59,29.61,158,16,70-19.09,136-70.11,206-73.09,86.76-3.84,172,43.67,258,48.18,86.28,4.72,172-35.19,258-41.77,70-5.09,136,10.09,206,26.18V0Z" fill="#71DFBE">
-    <animate attributeName="fill" values="#71DFBE;#2B2D2F;#71DFBE" dur="3s" repeatCount="indefinite" />
-  </path>
-</svg>
+<!-- Static SVG Divider -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shahbaz17/github-readme-divider/main/divider.svg" width="100%">
+</p>
+
+---
 
 ## 💼 Professional Achievements
 
@@ -78,12 +78,12 @@ These achievements reflect my professional approach and effectiveness in tacklin
 
 ---
 
-<!-- Animated Divider -->
-<svg width="100%" height="50" viewBox="0 0 1200 120" preserveAspectRatio="none">
-  <path d="M0,0V46.29c47.79,22,103.59,29.61,158,16,70-19.09,136-70.11,206-73.09,86.76-3.84,172,43.67,258,48.18,86.28,4.72,172-35.19,258-41.77,70-5.09,136,10.09,206,26.18V0Z" fill="#71DFBE">
-    <animate attributeName="fill" values="#71DFBE;#2B2D2F;#71DFBE" dur="3s" repeatCount="indefinite" />
-  </path>
-</svg>
+<!-- Static SVG Divider -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shahbaz17/github-readme-divider/main/divider.svg" width="100%">
+</p>
+
+---
 
 ## 🌍 Portfolio Website
 
@@ -97,33 +97,33 @@ Visit the [Portfolio Website](https://romnox.github.io/Portfolio/) to see it in 
 
 ---
 
-<!-- Animated Divider -->
-<svg width="100%" height="50" viewBox="0 0 1200 120" preserveAspectRatio="none">
-  <path d="M0,0V46.29c47.79,22,103.59,29.61,158,16,70-19.09,136-70.11,206-73.09,86.76-3.84,172,43.67,258,48.18,86.28,4.72,172-35.19,258-41.77,70-5.09,136,10.09,206,26.18V0Z" fill="#71DFBE">
-    <animate attributeName="fill" values="#71DFBE;#2B2D2F;#71DFBE" dur="3s" repeatCount="indefinite" />
-  </path>
-</svg>
+<!-- Static SVG Divider -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shahbaz17/github-readme-divider/main/divider.svg" width="100%">
+</p>
+
+---
 
 ## 🔒 Diplomas, Certifications & Resume
 
 This repository also contains my diplomas and certificates, which validate my expertise in both QA Automation and FullStack Development. They include:
 
 - **FullStack Developer Certificate:**  
-  This comprehensive course provided training in both front-end and back-end technologies. It covered Java Core, Databases (SQL & NoSQL), Linux, Git/GitHub, Maven, JUnit, Spring/Spring Boot, Hibernate, HTML/CSS, JavaScript ES6, TypeScript, React, Redux, and Project Management. This certification not only solidified my technical foundation but also enhanced my ability to design robust, scalable applications and integrate diverse technologies seamlessly.
+  This comprehensive course provided training in both front-end and back-end technologies. It covered Java Core, Databases (SQL & NoSQL), Linux, Git/GitHub, Maven, JUnit, Spring/Spring Boot, Hibernate, HTML/CSS, JavaScript ES6, TypeScript, React, Redux, and Project Management.
 
 - **QA Manual & Automation Tester Certificate:**  
-  This course focused on quality assurance methodologies and tools, covering Java Core, Databases (SQL & NoSQL), Linux, Git/GitHub, HTML/CSS, JavaScript, Test Design, Selenium, Postman, and additional testing tools. It confirms my ability to plan, execute, and optimize testing processes to ensure high-quality software delivery.
+  This course focused on quality assurance methodologies and tools, covering Java Core, Databases (SQL & NoSQL), Linux, Git/GitHub, HTML/CSS, JavaScript, Test Design, Selenium, Postman, and additional testing tools.
 
 My detailed resume further outlines these skills and highlights the key milestones of my professional career.
 
 ---
 
-<!-- Animated Divider -->
-<svg width="100%" height="50" viewBox="0 0 1200 120" preserveAspectRatio="none">
-  <path d="M0,0V46.29c47.79,22,103.59,29.61,158,16,70-19.09,136-70.11,206-73.09,86.76-3.84,172,43.67,258,48.18,86.28,4.72,172-35.19,258-41.77,70-5.09,136,10.09,206,26.18V0Z" fill="#71DFBE">
-    <animate attributeName="fill" values="#71DFBE;#2B2D2F;#71DFBE" dur="3s" repeatCount="indefinite" />
-  </path>
-</svg>
+<!-- Static SVG Divider -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shahbaz17/github-readme-divider/main/divider.svg" width="100%">
+</p>
+
+---
 
 ## 📩 Contact Me
 
@@ -140,4 +140,3 @@ If you have any questions or would like to discuss collaboration opportunities, 
 ---
 
 <h3 align="center">⭐️ If you like the project, please star and follow!</h3>
-
