@@ -23,13 +23,29 @@ This repository is a portfolio showcasing my skills in **test automation** and *
 
 ---
 
+<!-- Animated Divider -->
+<svg width="100%" height="50" viewBox="0 0 1200 120" preserveAspectRatio="none">
+  <path d="M0,0V46.29c47.79,22,103.59,29.61,158,16,70-19.09,136-70.11,206-73.09,86.76-3.84,172,43.67,258,48.18,86.28,4.72,172-35.19,258-41.77,70-5.09,136,10.09,206,26.18V0Z" fill="#71DFBE">
+    <animate attributeName="fill" values="#71DFBE;#2B2D2F;#71DFBE" dur="3s" repeatCount="indefinite" />
+  </path>
+</svg>
+
 ## 🔥 Main Technologies
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,js,html,css,git,linux,mysql,selenium,postman,jenkins">
 </p>
 
+The focus is on testing technologies (Selenium, Postman, Jenkins), as well as on web development (HTML/CSS, JavaScript), server-side development in Java, version control (Git) and databases (MySQL).
+
 ---
+
+<!-- Animated Divider -->
+<svg width="100%" height="50" viewBox="0 0 1200 120" preserveAspectRatio="none">
+  <path d="M0,0V46.29c47.79,22,103.59,29.61,158,16,70-19.09,136-70.11,206-73.09,86.76-3.84,172,43.67,258,48.18,86.28,4.72,172-35.19,258-41.77,70-5.09,136,10.09,206,26.18V0Z" fill="#71DFBE">
+    <animate attributeName="fill" values="#71DFBE;#2B2D2F;#71DFBE" dur="3s" repeatCount="indefinite" />
+  </path>
+</svg>
 
 ## 🏆 Project Examples
 
@@ -40,6 +56,13 @@ This repository is a portfolio showcasing my skills in **test automation** and *
 | [📌 CRM System Project](https://github.com/RomNox/Portfolio/tree/main/myCases/crmProject)          | A CRM system project presented via a detailed presentation and documentation. The project code is not publicly available, but I am willing to demonstrate it upon request.                                                                         | Presentation, Documentation, Video Presentation     |
 
 ---
+
+<!-- Animated Divider -->
+<svg width="100%" height="50" viewBox="0 0 1200 120" preserveAspectRatio="none">
+  <path d="M0,0V46.29c47.79,22,103.59,29.61,158,16,70-19.09,136-70.11,206-73.09,86.76-3.84,172,43.67,258,48.18,86.28,4.72,172-35.19,258-41.77,70-5.09,136,10.09,206,26.18V0Z" fill="#71DFBE">
+    <animate attributeName="fill" values="#71DFBE;#2B2D2F;#71DFBE" dur="3s" repeatCount="indefinite" />
+  </path>
+</svg>
 
 ## 💼 Professional Achievements
 
@@ -55,6 +78,13 @@ These achievements reflect my professional approach and effectiveness in tacklin
 
 ---
 
+<!-- Animated Divider -->
+<svg width="100%" height="50" viewBox="0 0 1200 120" preserveAspectRatio="none">
+  <path d="M0,0V46.29c47.79,22,103.59,29.61,158,16,70-19.09,136-70.11,206-73.09,86.76-3.84,172,43.67,258,48.18,86.28,4.72,172-35.19,258-41.77,70-5.09,136,10.09,206,26.18V0Z" fill="#71DFBE">
+    <animate attributeName="fill" values="#71DFBE;#2B2D2F;#71DFBE" dur="3s" repeatCount="indefinite" />
+  </path>
+</svg>
+
 ## 🌍 Portfolio Website
 
 The portfolio website in this repository is a simple one-page site designed to provide information about me in a comfortable and user-friendly format. While its primary purpose is to deliver essential details about my background, the site also subtly demonstrates my abilities in web interface development through the use of basic animation effects. Key features include:
@@ -66,6 +96,13 @@ The portfolio website in this repository is a simple one-page site designed to p
 Visit the [Portfolio Website](https://romnox.github.io/Portfolio/) to see it in action.
 
 ---
+
+<!-- Animated Divider -->
+<svg width="100%" height="50" viewBox="0 0 1200 120" preserveAspectRatio="none">
+  <path d="M0,0V46.29c47.79,22,103.59,29.61,158,16,70-19.09,136-70.11,206-73.09,86.76-3.84,172,43.67,258,48.18,86.28,4.72,172-35.19,258-41.77,70-5.09,136,10.09,206,26.18V0Z" fill="#71DFBE">
+    <animate attributeName="fill" values="#71DFBE;#2B2D2F;#71DFBE" dur="3s" repeatCount="indefinite" />
+  </path>
+</svg>
 
 ## 🔒 Diplomas, Certifications & Resume
 
@@ -81,10 +118,17 @@ My detailed resume further outlines these skills and highlights the key mileston
 
 ---
 
+<!-- Animated Divider -->
+<svg width="100%" height="50" viewBox="0 0 1200 120" preserveAspectRatio="none">
+  <path d="M0,0V46.29c47.79,22,103.59,29.61,158,16,70-19.09,136-70.11,206-73.09,86.76-3.84,172,43.67,258,48.18,86.28,4.72,172-35.19,258-41.77,70-5.09,136,10.09,206,26.18V0Z" fill="#71DFBE">
+    <animate attributeName="fill" values="#71DFBE;#2B2D2F;#71DFBE" dur="3s" repeatCount="indefinite" />
+  </path>
+</svg>
+
 ## 📩 Contact Me
 
-If you have any questions or would like to discuss collaboration opportunities, please feel free to reach out using the contact details below:
 **Languages:** I speak English (B2), German (A2), Ukrainian (Native), and Russian (Native).  
+If you have any questions or would like to discuss collaboration opportunities, please feel free to reach out:
 
 - **Email:** [romaykin@gmail.com](mailto:romaykin@gmail.com)
 - **LinkedIn:** [linkedin.com/in/romaykin](https://www.linkedin.com/in/romaykin)
@@ -96,3 +140,4 @@ If you have any questions or would like to discuss collaboration opportunities, 
 ---
 
 <h3 align="center">⭐️ If you like the project, please star and follow!</h3>
+
