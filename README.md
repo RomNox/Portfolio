@@ -1,4 +1,4 @@
-<h1 align="center">🚀 RomNox | GitHub Portfolio 🚀</h1>
+<h1 align="center">Romaikin GitHub Portfolio</h1>
 
 ---
 

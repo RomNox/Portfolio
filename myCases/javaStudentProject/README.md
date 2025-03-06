@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Task and Project Management System 🚀</h1>
+<h1 align="center">Task and Project Management System</h1>
 
 ---
 
