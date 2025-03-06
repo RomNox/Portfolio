@@ -70,8 +70,14 @@ Visit the [Portfolio Website](https://romnox.github.io/Portfolio/) to see it in 
 ## 🔒 Diplomas, Certifications & Resume
 
 This repository also contains my diplomas and certificates, which validate my expertise in both QA Automation and FullStack Development. They include:
-- A certificate for a FullStack Developer course covering Java Core, Databases (SQL & NoSQL), Linux, Git/GitHub, Maven, JUnit, Spring/Spring Boot, Hibernate, HTML/CSS, JavaScript ES6, TypeScript, React, Redux, Project Management, and more.
-- A certificate for a QA Manual and Automation Tester course covering Java Core, Databases (SQL & NoSQL), Linux, Git/GitHub, HTML/CSS, JavaScript, Test Design, Selenium, Postman, and additional testing tools.
+
+- **FullStack Developer Certificate:**  
+  This comprehensive course provided training in both front-end and back-end technologies. It covered Java Core, Databases (SQL & NoSQL), Linux, Git/GitHub, Maven, JUnit, Spring/Spring Boot, Hibernate, HTML/CSS, JavaScript ES6, TypeScript, React, Redux, and Project Management. This certification not only solidified my technical foundation but also enhanced my ability to design robust, scalable applications and integrate diverse technologies seamlessly.
+
+- **QA Manual & Automation Tester Certificate:**  
+  This course focused on quality assurance methodologies and tools, covering Java Core, Databases (SQL & NoSQL), Linux, Git/GitHub, HTML/CSS, JavaScript, Test Design, Selenium, Postman, and additional testing tools. It confirms my ability to plan, execute, and optimize testing processes to ensure high-quality software delivery.
+
+My detailed resume further outlines these skills and highlights the key milestones of my professional career.
 
 ---
 
