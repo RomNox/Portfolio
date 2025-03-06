@@ -118,6 +118,19 @@ This project was developed by a **team of students** as part of the final testin
 
 ---
 
-## 📜 License  
+## 📩 Contact
 
-This project is licensed under the **MIT License**, meaning it can be freely used, modified, and shared as long as the original authorship is acknowledged.
+If you have any questions or suggestions about the project, feel free to reach out:
+
+- **Email:** [romaykin@gmail.com](mailto:romaykin@gmail.com)
+- **LinkedIn:** [linkedin.com/in/romaykin](https://www.linkedin.com/in/romaykin)
+- **WhatsApp:** [Chat on WhatsApp](https://api.whatsapp.com/send?phone=+380682620798)
+- **Zoom Chat:** [Launch Zoom Chat](https://us05web.zoom.us/launch/chat?src=direct_chat_link&email=romaykin%40gmail.com)
+- **Tel (Germany):** +49 175 881 01 50
+- **Tel (Ukraine):** +38 068 262 07 98
+
+---
+
+## 📜 License
+
+This project is distributed under the **MIT License**, meaning it can be freely used, modified, and shared as long as the original authorship is acknowledged.
