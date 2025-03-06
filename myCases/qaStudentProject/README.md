@@ -1,11 +1,5 @@
 <h1 align="center"> PetSitters Testing Project </h1>
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/RomNox/finalProject?style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/RomNox/finalProject?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/RomNox/finalProject?style=for-the-badge">
-</p>
-
 ---
 
 ## 🌟 About the Project  
@@ -127,7 +121,3 @@ This project was developed by a **team of students** as part of the final testin
 ## 📜 License  
 
 This project is licensed under the **MIT License**, meaning it can be freely used, modified, and shared as long as the original authorship is acknowledged.
-
----
-
-<h3 align="center">⭐️ If you like the project, please star and follow!</h3>
