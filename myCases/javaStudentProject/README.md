@@ -109,9 +109,12 @@ To explore the code and understand its logic, check the **corresponding Java fil
 
 If you have any questions or suggestions about the project, feel free to reach out:
 
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/yourprofile)
-- **GitHub:** [github.com/yourprofile](https://github.com/yourprofile)
+- **Email:** [romaykin@gmail.com](mailto:romaykin@gmail.com)
+- **LinkedIn:** [linkedin.com/in/romaykin](https://www.linkedin.com/in/romaykin)
+- **WhatsApp:** [Chat on WhatsApp](https://api.whatsapp.com/send?phone=+380682620798)
+- **Zoom Chat:** [Launch Zoom Chat](https://us05web.zoom.us/launch/chat?src=direct_chat_link&email=romaykin%40gmail.com)
+- **Tel (Germany):** +49 175 881 01 50
+- **Tel (Ukraine):** +38 068 262 07 98
 
 ---
 
