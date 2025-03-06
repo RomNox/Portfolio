@@ -23,9 +23,9 @@ This repository is a portfolio showcasing my skills in **test automation** and *
 
 ---
 
-<!-- Static SVG Divider -->
+<!-- Static Image Divider -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shahbaz17/github-readme-divider/main/divider.svg" width="100%">
+  <img src="https://user-images.githubusercontent.com/20955511/133840902-f7356d3f-32b7-4d5d-9384-e42f615c74d7.png" width="100%">
 </p>
 
 ---
@@ -40,14 +40,10 @@ The focus is on testing technologies (Selenium, Postman, Jenkins), as well as on
 
 ---
 
-<!-- Static SVG Divider -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/shahbaz17/github-readme-divider/main/divider.svg" width="100%">
-</p>
-
----
-
+<!-- Text-Based Divider -->
+══════════════════════════════════════════════════
 ## 🏆 Project Examples
+══════════════════════════════════════════════════
 
 | 🚀 Project                                                   | 🛠 Description                                                                                                                                                                                                                                      | 💻 Technologies                                      |
 |--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
@@ -57,9 +53,9 @@ The focus is on testing technologies (Selenium, Postman, Jenkins), as well as on
 
 ---
 
-<!-- Static SVG Divider -->
+<!-- Static Image Divider -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shahbaz17/github-readme-divider/main/divider.svg" width="100%">
+  <img src="https://user-images.githubusercontent.com/20955511/133840902-f7356d3f-32b7-4d5d-9384-e42f615c74d7.png" width="100%">
 </p>
 
 ---
@@ -78,14 +74,10 @@ These achievements reflect my professional approach and effectiveness in tacklin
 
 ---
 
-<!-- Static SVG Divider -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/shahbaz17/github-readme-divider/main/divider.svg" width="100%">
-</p>
-
----
-
+<!-- Text-Based Divider -->
+══════════════════════════════════════════════════
 ## 🌍 Portfolio Website
+══════════════════════════════════════════════════
 
 The portfolio website in this repository is a simple one-page site designed to provide information about me in a comfortable and user-friendly format. While its primary purpose is to deliver essential details about my background, the site also subtly demonstrates my abilities in web interface development through the use of basic animation effects. Key features include:
 
@@ -97,30 +89,9 @@ Visit the [Portfolio Website](https://romnox.github.io/Portfolio/) to see it in 
 
 ---
 
-<!-- Static SVG Divider -->
+<!-- Static Image Divider -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shahbaz17/github-readme-divider/main/divider.svg" width="100%">
-</p>
-
----
-
-## 🔒 Diplomas, Certifications & Resume
-
-This repository also contains my diplomas and certificates, which validate my expertise in both QA Automation and FullStack Development. They include:
-
-- **FullStack Developer Certificate:**  
-  This comprehensive course provided training in both front-end and back-end technologies. It covered Java Core, Databases (SQL & NoSQL), Linux, Git/GitHub, Maven, JUnit, Spring/Spring Boot, Hibernate, HTML/CSS, JavaScript ES6, TypeScript, React, Redux, and Project Management.
-
-- **QA Manual & Automation Tester Certificate:**  
-  This course focused on quality assurance methodologies and tools, covering Java Core, Databases (SQL & NoSQL), Linux, Git/GitHub, HTML/CSS, JavaScript, Test Design, Selenium, Postman, and additional testing tools.
-
-My detailed resume further outlines these skills and highlights the key milestones of my professional career.
-
----
-
-<!-- Static SVG Divider -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/shahbaz17/github-readme-divider/main/divider.svg" width="100%">
+  <img src="https://user-images.githubusercontent.com/20955511/133840902-f7356d3f-32b7-4d5d-9384-e42f615c74d7.png" width="100%">
 </p>
 
 ---
