@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Bip.promo CRM/ERP System 🚀</h1>
+<h1 align="center">Bip.promo CRM/ERP System</h1>
 
 ---
 
