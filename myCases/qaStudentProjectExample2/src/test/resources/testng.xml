@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HerokuApp Tests Suite" verbose="1" parallel="false">
+
+    <!-- Определение тестов -->
+    <test name="HerokuApp Tests">
+        <!-- Параметры, если нужны -->
+        <parameter name="browser" value="chrome" />
+
+        <!-- Список классов -->
+        <classes>
+            <class name="tests.FramesTest" />
+            <class name="tests.AnotherTestClass" />
+        </classes>
+    </test>
+
+</suite>
